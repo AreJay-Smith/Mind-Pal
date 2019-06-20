@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49B234D522BB110B00AF873E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B234D422BB110B00AF873E /* AppDelegate.swift */; };
+		49B234D722BB110B00AF873E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B234D622BB110B00AF873E /* ViewController.swift */; };
+		49B234DA22BB110B00AF873E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B234D822BB110B00AF873E /* Main.storyboard */; };
+		49B234DC22BB110C00AF873E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B234DB22BB110C00AF873E /* Assets.xcassets */; };
+		49B234DF22BB110C00AF873E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B234DD22BB110C00AF873E /* LaunchScreen.storyboard */; };
+		49B234EA22BB110D00AF873E /* MindPalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B234E922BB110D00AF873E /* MindPalTests.swift */; };
+		49B234F522BB110D00AF873E /* MindPalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B234F422BB110D00AF873E /* MindPalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49B234E622BB110D00AF873E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49B234C922BB110A00AF873E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49B234D022BB110A00AF873E;
+			remoteInfo = MindPal;
+		};
+		49B234F122BB110D00AF873E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49B234C922BB110A00AF873E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49B234D022BB110A00AF873E;
+			remoteInfo = MindPal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49B234D122BB110A00AF873E /* MindPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B234D422BB110B00AF873E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49B234D622BB110B00AF873E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49B234D922BB110B00AF873E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49B234DB22BB110C00AF873E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49B234DE22BB110C00AF873E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49B234E022BB110C00AF873E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49B234E522BB110D00AF873E /* MindPalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindPalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B234E922BB110D00AF873E /* MindPalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindPalTests.swift; sourceTree = "<group>"; };
+		49B234EB22BB110D00AF873E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49B234F022BB110D00AF873E /* MindPalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindPalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B234F422BB110D00AF873E /* MindPalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindPalUITests.swift; sourceTree = "<group>"; };
+		49B234F622BB110D00AF873E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49B234CE22BB110A00AF873E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B234E222BB110D00AF873E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B234ED22BB110D00AF873E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49B234C822BB110A00AF873E = {
+			isa = PBXGroup;
+			children = (
+				49B234D322BB110A00AF873E /* MindPal */,
+				49B234E822BB110D00AF873E /* MindPalTests */,
+				49B234F322BB110D00AF873E /* MindPalUITests */,
+				49B234D222BB110A00AF873E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49B234D222BB110A00AF873E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49B234D122BB110A00AF873E /* MindPal.app */,
+				49B234E522BB110D00AF873E /* MindPalTests.xctest */,
+				49B234F022BB110D00AF873E /* MindPalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49B234D322BB110A00AF873E /* MindPal */ = {
+			isa = PBXGroup;
+			children = (
+				49B2350522BB18ED00AF873E /* Supporting Files */,
+				49B2350222BB14C100AF873E /* Home */,
+				49B234D422BB110B00AF873E /* AppDelegate.swift */,
+				49B234D622BB110B00AF873E /* ViewController.swift */,
+				49B234DB22BB110C00AF873E /* Assets.xcassets */,
+				49B234DD22BB110C00AF873E /* LaunchScreen.storyboard */,
+				49B234E022BB110C00AF873E /* Info.plist */,
+			);
+			path = MindPal;
+			sourceTree = "<group>";
+		};
+		49B234E822BB110D00AF873E /* MindPalTests */ = {
+			isa = PBXGroup;
+			children = (
+				49B234E922BB110D00AF873E /* MindPalTests.swift */,
+				49B234EB22BB110D00AF873E /* Info.plist */,
+			);
+			path = MindPalTests;
+			sourceTree = "<group>";
+		};
+		49B234F322BB110D00AF873E /* MindPalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49B234F422BB110D00AF873E /* MindPalUITests.swift */,
+				49B234F622BB110D00AF873E /* Info.plist */,
+			);
+			path = MindPalUITests;
+			sourceTree = "<group>";
+		};
+		49B2350222BB14C100AF873E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				49B2350422BB15C000AF873E /* View */,
+				49B2350322BB14D600AF873E /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		49B2350322BB14D600AF873E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		49B2350422BB15C000AF873E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				49B234D822BB110B00AF873E /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		49B2350522BB18ED00AF873E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49B234D022BB110A00AF873E /* MindPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B234F922BB110D00AF873E /* Build configuration list for PBXNativeTarget "MindPal" */;
+			buildPhases = (
+				49B234CD22BB110A00AF873E /* Sources */,
+				49B234CE22BB110A00AF873E /* Frameworks */,
+				49B234CF22BB110A00AF873E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindPal;
+			productName = MindPal;
+			productReference = 49B234D122BB110A00AF873E /* MindPal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49B234E422BB110D00AF873E /* MindPalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B234FC22BB110D00AF873E /* Build configuration list for PBXNativeTarget "MindPalTests" */;
+			buildPhases = (
+				49B234E122BB110D00AF873E /* Sources */,
+				49B234E222BB110D00AF873E /* Frameworks */,
+				49B234E322BB110D00AF873E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49B234E722BB110D00AF873E /* PBXTargetDependency */,
+			);
+			name = MindPalTests;
+			productName = MindPalTests;
+			productReference = 49B234E522BB110D00AF873E /* MindPalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49B234EF22BB110D00AF873E /* MindPalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B234FF22BB110D00AF873E /* Build configuration list for PBXNativeTarget "MindPalUITests" */;
+			buildPhases = (
+				49B234EC22BB110D00AF873E /* Sources */,
+				49B234ED22BB110D00AF873E /* Frameworks */,
+				49B234EE22BB110D00AF873E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49B234F222BB110D00AF873E /* PBXTargetDependency */,
+			);
+			name = MindPalUITests;
+			productName = MindPalUITests;
+			productReference = 49B234F022BB110D00AF873E /* MindPalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49B234C922BB110A00AF873E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Randall Smith";
+				TargetAttributes = {
+					49B234D022BB110A00AF873E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					49B234E422BB110D00AF873E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 49B234D022BB110A00AF873E;
+					};
+					49B234EF22BB110D00AF873E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 49B234D022BB110A00AF873E;
+					};
+				};
+			};
+			buildConfigurationList = 49B234CC22BB110A00AF873E /* Build configuration list for PBXProject "MindPal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49B234C822BB110A00AF873E;
+			productRefGroup = 49B234D222BB110A00AF873E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49B234D022BB110A00AF873E /* MindPal */,
+				49B234E422BB110D00AF873E /* MindPalTests */,
+				49B234EF22BB110D00AF873E /* MindPalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49B234CF22BB110A00AF873E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B234DF22BB110C00AF873E /* LaunchScreen.storyboard in Resources */,
+				49B234DC22BB110C00AF873E /* Assets.xcassets in Resources */,
+				49B234DA22BB110B00AF873E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B234E322BB110D00AF873E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B234EE22BB110D00AF873E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49B234CD22BB110A00AF873E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B234D722BB110B00AF873E /* ViewController.swift in Sources */,
+				49B234D522BB110B00AF873E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B234E122BB110D00AF873E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B234EA22BB110D00AF873E /* MindPalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B234EC22BB110D00AF873E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B234F522BB110D00AF873E /* MindPalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49B234E722BB110D00AF873E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49B234D022BB110A00AF873E /* MindPal */;
+			targetProxy = 49B234E622BB110D00AF873E /* PBXContainerItemProxy */;
+		};
+		49B234F222BB110D00AF873E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49B234D022BB110A00AF873E /* MindPal */;
+			targetProxy = 49B234F122BB110D00AF873E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49B234D822BB110B00AF873E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49B234D922BB110B00AF873E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49B234DD22BB110C00AF873E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49B234DE22BB110C00AF873E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49B234F722BB110D00AF873E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49B234F822BB110D00AF873E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49B234FA22BB110D00AF873E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9R3LGJVVT;
+				INFOPLIST_FILE = MindPal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.rjsmith.MindPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49B234FB22BB110D00AF873E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9R3LGJVVT;
+				INFOPLIST_FILE = MindPal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.rjsmith.MindPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49B234FD22BB110D00AF873E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9R3LGJVVT;
+				INFOPLIST_FILE = MindPalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.rjsmith.MindPalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindPal.app/MindPal";
+			};
+			name = Debug;
+		};
+		49B234FE22BB110D00AF873E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9R3LGJVVT;
+				INFOPLIST_FILE = MindPalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.rjsmith.MindPalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindPal.app/MindPal";
+			};
+			name = Release;
+		};
+		49B2350022BB110D00AF873E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9R3LGJVVT;
+				INFOPLIST_FILE = MindPalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.rjsmith.MindPalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindPal;
+			};
+			name = Debug;
+		};
+		49B2350122BB110D00AF873E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9R3LGJVVT;
+				INFOPLIST_FILE = MindPalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.rjsmith.MindPalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindPal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49B234CC22BB110A00AF873E /* Build configuration list for PBXProject "MindPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B234F722BB110D00AF873E /* Debug */,
+				49B234F822BB110D00AF873E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49B234F922BB110D00AF873E /* Build configuration list for PBXNativeTarget "MindPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B234FA22BB110D00AF873E /* Debug */,
+				49B234FB22BB110D00AF873E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49B234FC22BB110D00AF873E /* Build configuration list for PBXNativeTarget "MindPalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B234FD22BB110D00AF873E /* Debug */,
+				49B234FE22BB110D00AF873E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49B234FF22BB110D00AF873E /* Build configuration list for PBXNativeTarget "MindPalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B2350022BB110D00AF873E /* Debug */,
+				49B2350122BB110D00AF873E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49B234C922BB110A00AF873E /* Project object */;
+}
