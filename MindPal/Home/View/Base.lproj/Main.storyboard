@@ -92,10 +92,23 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="lessonsBtn" destination="wAZ-qo-Gqf" id="Dod-4u-zDA"/>
+                        <outlet property="practiceBtn" destination="Th1-2n-7ty" id="cdl-5T-1ca"/>
+                        <outlet property="testBtn" destination="eBi-fv-wod" id="XiK-bd-aea"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="138.58695652173915"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="vjI-40-mrW">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="6KD-bT-0k1" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uLW-9g-bw5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1113" y="164"/>
         </scene>
     </scenes>
     <resources>

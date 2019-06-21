@@ -9,12 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var lessonsBtn: UIButton!
+    @IBOutlet weak var practiceBtn: UIButton!
+    @IBOutlet weak var testBtn: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        lessonsBtn.layer.cornerRadius = 15
+        practiceBtn.layer.cornerRadius = 15
+        testBtn.layer.cornerRadius = 15
     }
-
-
+    
+    
 }
 
