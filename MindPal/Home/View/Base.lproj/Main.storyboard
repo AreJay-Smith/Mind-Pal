@@ -22,65 +22,57 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Coe-Cb-Lak" userLabel="Bottom View">
-                                <rect key="frame" x="0.0" y="336" width="414" height="400"/>
+                                <rect key="frame" x="0.0" y="378" width="414" height="358"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Th1-2n-7ty">
-                                        <rect key="frame" x="99" y="175" width="216" height="50"/>
-                                        <color key="backgroundColor" red="0.75214145119999998" green="0.086832042730000003" blue="0.0021356900249999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="216" id="6Hk-Xg-LqX"/>
-                                            <constraint firstAttribute="height" constant="50" id="Spi-aF-eJq"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
-                                        <state key="normal" title="Practice">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBi-fv-wod">
-                                        <rect key="frame" x="99" y="268" width="216" height="50"/>
-                                        <color key="backgroundColor" red="0.75214145119999998" green="0.086832042730000003" blue="0.0021356900249999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="216" id="Uni-Uc-Z0X"/>
-                                            <constraint firstAttribute="height" constant="50" id="wQM-Jl-Cfs"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
-                                        <state key="normal" title="Test">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAZ-qo-Gqf">
-                                        <rect key="frame" x="99" y="82" width="216" height="50"/>
-                                        <color key="backgroundColor" red="0.75214145115533004" green="0.086832042733489351" blue="0.002135690025410334" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="dn5-jb-Cdd"/>
-                                            <constraint firstAttribute="width" constant="216" id="yzM-Sr-1Xh"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
-                                        <state key="normal" title="Lessons">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="5"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="43" translatesAutoresizingMaskIntoConstraints="NO" id="2wu-fw-cCF">
+                                        <rect key="frame" x="103.66666666666669" y="61" width="207" height="236"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAZ-qo-Gqf">
+                                                <rect key="frame" x="0.0" y="0.0" width="207" height="50"/>
+                                                <color key="backgroundColor" red="0.75214145115533004" green="0.086832042733489351" blue="0.002135690025410334" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="dn5-jb-Cdd"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                                                <state key="normal" title="Lessons">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Th1-2n-7ty">
+                                                <rect key="frame" x="0.0" y="93" width="207" height="50"/>
+                                                <color key="backgroundColor" red="0.75214145119999998" green="0.086832042730000003" blue="0.0021356900249999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="Spi-aF-eJq"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                                                <state key="normal" title="Practice">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBi-fv-wod">
+                                                <rect key="frame" x="0.0" y="186" width="207" height="50"/>
+                                                <color key="backgroundColor" red="0.75214145119999998" green="0.086832042730000003" blue="0.0021356900249999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="wQM-Jl-Cfs"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                                                <state key="normal" title="Test">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="Th1-2n-7ty" firstAttribute="centerY" secondItem="Coe-Cb-Lak" secondAttribute="centerY" id="AUx-aN-1dd"/>
-                                    <constraint firstItem="Th1-2n-7ty" firstAttribute="centerX" secondItem="Coe-Cb-Lak" secondAttribute="centerX" id="JNf-HT-cJc"/>
-                                    <constraint firstItem="eBi-fv-wod" firstAttribute="top" secondItem="Th1-2n-7ty" secondAttribute="bottom" constant="43" id="Kmr-xU-2yt"/>
-                                    <constraint firstAttribute="bottom" secondItem="Th1-2n-7ty" secondAttribute="bottom" constant="175" id="Tzu-1k-fB1"/>
-                                    <constraint firstAttribute="trailing" secondItem="eBi-fv-wod" secondAttribute="trailing" constant="99" id="UZO-d3-FDd"/>
-                                    <constraint firstItem="eBi-fv-wod" firstAttribute="leading" secondItem="Coe-Cb-Lak" secondAttribute="leading" constant="99" id="aZ8-3T-Mrn"/>
-                                    <constraint firstItem="Th1-2n-7ty" firstAttribute="top" secondItem="wAZ-qo-Gqf" secondAttribute="bottom" constant="43" id="bGE-4r-Pr8"/>
-                                    <constraint firstItem="Th1-2n-7ty" firstAttribute="centerX" secondItem="Coe-Cb-Lak" secondAttribute="centerX" id="ckz-GF-Xbw"/>
-                                    <constraint firstAttribute="trailing" secondItem="wAZ-qo-Gqf" secondAttribute="trailing" constant="99" id="jx4-TC-E81"/>
-                                    <constraint firstItem="Th1-2n-7ty" firstAttribute="centerY" secondItem="Coe-Cb-Lak" secondAttribute="centerY" id="ksp-b2-yRl"/>
-                                    <constraint firstAttribute="trailing" secondItem="Th1-2n-7ty" secondAttribute="trailing" constant="99" id="ubL-6v-TO3"/>
-                                    <constraint firstItem="Th1-2n-7ty" firstAttribute="leading" secondItem="Coe-Cb-Lak" secondAttribute="leading" constant="99" id="wcS-4H-Qvi"/>
-                                    <constraint firstItem="wAZ-qo-Gqf" firstAttribute="leading" secondItem="Coe-Cb-Lak" secondAttribute="leading" constant="99" id="wxp-C1-l80"/>
+                                    <constraint firstItem="2wu-fw-cCF" firstAttribute="centerY" secondItem="Coe-Cb-Lak" secondAttribute="centerY" id="3Qp-Eo-bTq"/>
+                                    <constraint firstItem="2wu-fw-cCF" firstAttribute="centerX" secondItem="Coe-Cb-Lak" secondAttribute="centerX" id="SN7-Qe-CzK"/>
+                                    <constraint firstItem="2wu-fw-cCF" firstAttribute="width" secondItem="Coe-Cb-Lak" secondAttribute="width" multiplier="0.5" id="ifg-Hf-gqc"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -93,6 +85,7 @@
                             <constraint firstItem="Coe-Cb-Lak" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="JWQ-Na-jFe"/>
                             <constraint firstItem="vjd-Y8-VHN" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="TzK-G1-1ao"/>
                             <constraint firstItem="Coe-Cb-Lak" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Y3g-eJ-aCY"/>
+                            <constraint firstItem="Coe-Cb-Lak" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="ZZL-dB-G8f"/>
                             <constraint firstItem="Coe-Cb-Lak" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Zfj-4w-Y90"/>
                             <constraint firstItem="vjd-Y8-VHN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="d70-EF-VRj"/>
                             <constraint firstItem="vjd-Y8-VHN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="exW-M8-aCN"/>
