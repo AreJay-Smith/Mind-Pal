@@ -75,6 +75,9 @@
                                     <constraint firstItem="2wu-fw-cCF" firstAttribute="width" secondItem="Coe-Cb-Lak" secondAttribute="width" multiplier="0.5" id="ifg-Hf-gqc"/>
                                 </constraints>
                             </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="mindPalLogo" translatesAutoresizingMaskIntoConstraints="NO" id="hNg-UU-lMa">
+                                <rect key="frame" x="-12" y="37" width="438" height="221"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -85,6 +88,7 @@
                             <constraint firstItem="Coe-Cb-Lak" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="JWQ-Na-jFe"/>
                             <constraint firstItem="vjd-Y8-VHN" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="TzK-G1-1ao"/>
                             <constraint firstItem="Coe-Cb-Lak" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Y3g-eJ-aCY"/>
+                            <constraint firstItem="hNg-UU-lMa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YBP-YW-n5b"/>
                             <constraint firstItem="Coe-Cb-Lak" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="ZZL-dB-G8f"/>
                             <constraint firstItem="Coe-Cb-Lak" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Zfj-4w-Y90"/>
                             <constraint firstItem="vjd-Y8-VHN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="d70-EF-VRj"/>
@@ -108,10 +112,11 @@
                 <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="6KD-bT-0k1" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uLW-9g-bw5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1113" y="164"/>
+            <point key="canvasLocation" x="1055" y="146"/>
         </scene>
     </scenes>
     <resources>
         <image name="mainScreenImage" width="917.5" height="1370.5"/>
+        <image name="mindPalLogo" width="438" height="415.5"/>
     </resources>
 </document>
