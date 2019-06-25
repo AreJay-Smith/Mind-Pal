@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C7A485122C2B784001AE46B /* TrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7A485022C2B784001AE46B /* TrainingViewController.swift */; };
 		49B234D522BB110B00AF873E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B234D422BB110B00AF873E /* AppDelegate.swift */; };
 		49B234D722BB110B00AF873E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B234D622BB110B00AF873E /* ViewController.swift */; };
 		49B234DA22BB110B00AF873E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B234D822BB110B00AF873E /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C7A485022C2B784001AE46B /* TrainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingViewController.swift; sourceTree = "<group>"; };
 		49B234D122BB110A00AF873E /* MindPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B234D422BB110B00AF873E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49B234D622BB110B00AF873E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C7A484F22C2B72C001AE46B /* Training */ = {
+			isa = PBXGroup;
+			children = (
+				2C7A485022C2B784001AE46B /* TrainingViewController.swift */,
+			);
+			path = Training;
+			sourceTree = "<group>";
+		};
 		49B234C822BB110A00AF873E = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +107,7 @@
 		49B234D322BB110A00AF873E /* MindPal */ = {
 			isa = PBXGroup;
 			children = (
+				2C7A484F22C2B72C001AE46B /* Training */,
 				49B2350522BB18ED00AF873E /* Supporting Files */,
 				49B2350222BB14C100AF873E /* Home */,
 				49B234D422BB110B00AF873E /* AppDelegate.swift */,
@@ -288,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C7A485122C2B784001AE46B /* TrainingViewController.swift in Sources */,
 				49B234D722BB110B00AF873E /* ViewController.swift in Sources */,
 				49B234D522BB110B00AF873E /* AppDelegate.swift in Sources */,
 			);
