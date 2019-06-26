@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
     
     @IBOutlet weak var lessonsBtn: UIButton!
     @IBOutlet weak var practiceBtn: UIButton!
@@ -20,6 +20,8 @@ class ViewController: UIViewController {
         lessonsBtn.layer.cornerRadius = 15
         practiceBtn.layer.cornerRadius = 15
         testBtn.layer.cornerRadius = 15
+        
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
     }
     
     
