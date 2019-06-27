@@ -131,13 +131,35 @@
                     <view key="view" contentMode="scaleToFill" id="UOA-9O-FJ1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FZH-k2-91K">
+                                <rect key="frame" x="20" y="82.000000000000114" width="374" height="135.66666666666666"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Let's work on perfecting the Method of Loci by memorizing 12 cards from a deck of cards. With practice, you'll be able to use  this technique to eventually remember 52 cards!</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ubb-jk-p6I">
+                                <rect key="frame" x="20" y="458" width="374" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">52 cards in a row might seem like an impossible task at the start. The biggest enemy of memory is a lack of confidence--and right now you're probably thinking you can't do it.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="screen1" translatesAutoresizingMaskIntoConstraints="NO" id="HJf-Pr-iGC">
+                                <rect key="frame" x="20" y="232" width="374" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="KWK-7B-3le"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WTd-RX-MWt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2710.9375" y="131.8359375"/>
+            <point key="canvasLocation" x="2710.144927536232" y="131.25"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="uWg-5m-6Qv">
@@ -146,13 +168,34 @@
                     <view key="view" contentMode="scaleToFill" id="bcj-1r-la5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.75214145119999998" green="0.086832042730000003" blue="0.0021356900249999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="screen2" translatesAutoresizingMaskIntoConstraints="NO" id="rDZ-2j-l6M">
+                                <rect key="frame" x="20" y="261" width="374" height="225"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="First, separate the face cards from the deck: Jack, Queen, and King of all four suits: 12 cards." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4LX-8d-1Us">
+                                <rect key="frame" x="20" y="155" width="374" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="75E-Jz-bXQ">
+                                <rect key="frame" x="20" y="494" width="374" height="159.33333333333334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">If we can "chunk" (a fun word psychologists use for grouping information into smaller parts) groups of three cards into one "thing," we've suddenly reduced 52 things you have to memorize down to 17</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="cCZ-Jg-JgT"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gfR-su-ZOD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3467.96875" y="128.90625"/>
+            <point key="canvasLocation" x="3466.666666666667" y="128.80434782608697"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="C8z-Qv-8aZ">
@@ -161,13 +204,420 @@
                     <view key="view" contentMode="scaleToFill" id="t0x-Qf-gnw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Person // Action // Object" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="yGC-3S-WJR">
+                                <rect key="frame" x="20" y="130" width="374" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FNO-7f-cCC">
+                                <rect key="frame" x="20" y="236" width="374" height="302.66666666666669"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">So what is Person // Action // Object (PAO)? It's a memorization strategy that takes advantage of something our brains are really good at: visualization. We remember pictures of things that are meaningful way better than we remember abstract things (like a card with a suit and number.)
+
+Let's start with the 12 face cards you set aside and associate a person with each one.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="eh7-Ng-Q23"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Cb-Ia-AgR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4207.03125" y="126.56249999999999"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2zU-wR-Xw1">
+            <objects>
+                <viewController id="man-fi-xCy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="k1O-90-5cH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5RT-IY-7Dj">
+                                <rect key="frame" x="20" y="491" width="374" height="135.66666666666666"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Whatever the card reminds you of, go with it. For example, the King of Clubs could be Tiger Woods, because he is the king of clubs.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="KC" translatesAutoresizingMaskIntoConstraints="NO" id="lHc-G5-jg9">
+                                <rect key="frame" x="20" y="139" width="374" height="225"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="B2B-wa-Ecn"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MML-Fy-Lsk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4970" y="129"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="PCI-Kn-6sd">
+            <objects>
+                <viewController id="cVR-LA-0Jw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hQQ-cU-WHB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="KH" translatesAutoresizingMaskIntoConstraints="NO" id="O8j-iO-a2L">
+                                <rect key="frame" x="20" y="123" width="374" height="225"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RVk-gg-Pac">
+                                <rect key="frame" x="20" y="467" width="374" height="159.33333333333334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">King of Hearts could be your dad, because hearts might make you think of family, and he is the king of the family. If that's not true, then try to come up with another person that resembles a king and hearts in your life.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="gMg-yM-asb"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8pB-70-NG9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5733" y="126"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9H4-C8-tQF">
+            <objects>
+                <viewController id="C6l-hE-e1q" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="26Y-v6-uAV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="KD" translatesAutoresizingMaskIntoConstraints="NO" id="Wov-T5-bex">
+                                <rect key="frame" x="20" y="115" width="374" height="225"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="F1U-mO-Oha">
+                                <rect key="frame" x="20" y="439" width="374" height="159.33333333333334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">King of Diamonds could be Donald Trump, because he probably has a ton of diamonds and he thinks he's a king. The more wild and whacky the image, the better it'll stay in your mind.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="THt-hv-viK"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wdh-tE-4zj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6538" y="124"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="iLJ-hP-AZb">
+            <objects>
+                <viewController id="Ptc-xS-T6t" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e57-gE-Gp3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3ye-XK-N0w">
+                                <rect key="frame" x="20" y="75" width="374" height="207"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Once you have people picked out, decide on an action and an object for each. Make it something that makes sense to that person, something that is so obvious you don't really need to memorize it. For example, King of Clubs is Tiger Woods, his action is playing golf, and his object is a golf club.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="club" translatesAutoresizingMaskIntoConstraints="NO" id="oTY-ZS-RVu">
+                                <rect key="frame" x="20" y="375" width="374" height="225"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="AHO-nf-m2f"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LY5-lp-85l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7304" y="129"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Drg-s4-Z82">
+            <objects>
+                <viewController id="9fJ-lz-J4D" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pyC-bw-bAg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="screen3" translatesAutoresizingMaskIntoConstraints="NO" id="Ba8-lM-D92">
+                                <rect key="frame" x="0.0" y="103" width="394" height="248"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2In-xh-120">
+                                <rect key="frame" x="20" y="395" width="374" height="302.66666666666669"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Once you have that, the idea of PAO is that when you encounter three cards in a row, the first card is always taken as the Person, the second as the Action, and the third as the Object.
+
+You can end up with some super weird combos that way and at the same time group three cards into one memorable image. The formula is always the same: it's a person, doing an action, with an object.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="XZO-d0-tqX"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aHJ-Aj-I8d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8063.7681159420299" y="125.54347826086958"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="agY-0D-5iG">
+            <objects>
+                <viewController id="XXO-jH-TZG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HJx-jX-eJj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="YYd-CP-c5S">
+                                <rect key="frame" x="20" y="381" width="374" height="278.66666666666669"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">OK, so the cards mean something. Now what?
+
+We need a place to store them as you memorize them. What better place to use than the places you walk through every day: your home, your office, or even the local Starbucks.
+
+If you can't think of a place, don't worry. We'll just use the one above.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placesansnumber" translatesAutoresizingMaskIntoConstraints="NO" id="Ctm-tF-Wh7">
+                                <rect key="frame" x="0.0" y="89" width="414" height="248"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="sRs-LV-Vf7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xvE-DI-TBB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8857.971014492754" y="125.54347826086958"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Dt0-WZ-VZL">
+            <objects>
+                <viewController id="ac5-Dx-BDi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UH1-5Z-Y5X">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placesansnumber" translatesAutoresizingMaskIntoConstraints="NO" id="y7p-Ae-Kpr">
+                                <rect key="frame" x="0.0" y="81" width="414" height="248"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="10T-vY-FO2">
+                                <rect key="frame" x="20" y="379" width="374" height="337"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Our brains are very good at remembering spacial information, so if you can imagine yourself walking through a place you know well, you can deposit the images of cards you are memorizing along the way. Then, when it comes time to recall them, you just imagine yourself walking back through that place and picking up the images as you go, translating them back into cards. Voilà!
+
+Let's create a pathway through this place that can be used as a mind palace.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="25K-FC-jRg"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7eW-ji-2aV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9686.9565217391319" y="128.80434782608697"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Pbn-Wn-aLR">
+            <objects>
+                <viewController id="2T8-Op-7vn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HXv-4U-qTz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placewithnumbers" translatesAutoresizingMaskIntoConstraints="NO" id="dLM-5r-zmc">
+                                <rect key="frame" x="0.0" y="59" width="414" height="248"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dFS-eO-NQk">
+                                <rect key="frame" x="20" y="315" width="374" height="407"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">1. The top of the stairs
+2. The ledge next to the stairs
+3. The stairs next to the ledge
+4. The slanted part of the wall
+5. The bottom step
+6. On top of the wall
+7. On the bench
+8. In the hole above the door
+9. Peeking through one of the windows
+10. In front of the door
+11. Hanging from the bars over the window
+12. Inside of the doorway
+13. Among the red flowers
+14. Hiding in the bushes
+15. On the step</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="CWC-7c-7YS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I0S-Cs-j9D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10428.985507246378" y="133.69565217391306"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7y9-74-AOk">
+            <objects>
+                <viewController id="uh2-2z-jwI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bM7-4a-3LA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placewithnumbers" translatesAutoresizingMaskIntoConstraints="NO" id="3dS-rd-tlI">
+                                <rect key="frame" x="0.0" y="57" width="414" height="248"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="s9z-tS-0vu">
+                                <rect key="frame" x="20" y="313" width="374" height="384"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Say the first three cards are King of Clubs, King of Hearts, and Queen of Clubs. Let's make that set equal: Tiger Woods (Person) signing (Action) a Chihuahua (Object). If I use this image as a memory palace and start at the top of the stairs, there on the first step is Tiger Woods holding a big pen as he signs the back of a yipping Chihuahua. Then you move on to the next three cards and placethem on the ledge next to the stairs, then the next three cards farther down the stairs etc.
+
+Use the rest of the number to memorize the rest of the face cards.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Jgy-Fy-FZv"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JjB-ij-6gx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="11198.550724637682" y="131.25"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="OYV-qY-Q41">
+            <objects>
+                <viewController id="1eO-Tl-ayD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gvi-Oc-EKH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aLc-pA-fgy">
+                                <rect key="frame" x="31" y="100" width="363" height="599"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">For the rest of the cards, there are lots of choices in terms of formal systems, but I like one called the Dominic System. The Dominic System is basically a code for numbers and suits that translates them into letters, which in turn represent the initials of a person or character.
+
+Let's work through an example.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="0CF-2X-2T7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tiY-K7-vdn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="11989.85507246377" y="128.80434782608697"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="nPw-So-CQO">
+            <objects>
+                <viewController id="u9v-pD-2Ex" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="08p-aW-kDP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nEV-oD-5tT">
+                                <rect key="frame" x="20" y="69" width="374" height="647"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Here's the system:
+1 = A
+2 = B
+3 = C
+4 = D
+5 = E
+6 = S
+7 = G
+8 = H
+9 = N
+0 = O
+​Clubs = C
+​Diamonds = D
+​Spades = S
+​Hearts = H
+Ace of Spades is an A and an S.
+Ace = A, Spades = S.
+A.S. = Arnold Schwarzenegger // Weightlifting // Barbell
+5 of Clubs is an E and a C.
+5 = E, Clubs = C.
+E.C. = Eric Clapton // Playing guitar // Guitar</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Rh9-t2-a7g"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HGp-Uk-Wqd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="12776.8115942029" y="138.58695652173915"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="XBH-my-id4">
+            <objects>
+                <viewController id="f85-8r-plj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IlR-5P-Gs2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mRa-bY-ZVA">
+                                <rect key="frame" x="20" y="101" width="374" height="599"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Put it all together and you'll probably be able to memorize a full deck of cards on your first try -- but not in under a minute. To get that fast, you just need to practice. Memorize a deck a day and you'll be cutting your times in half in no time.
+
+And keep in mind that the more you practice imagining the images for cards, the faster you'll be able to encode them.
+Think of it like becoming fluent in a foreign language -- you have to practice speaking the language before it becomes automatic.
+
+And once you get it down fast enough, try applying these techniques to other parts of your life like studying for an upcoming test, or remembering a shopping list without writing anything down. Your memory capacity will begin to expand as you do.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="woH-LM-5NP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pc1-z8-ISz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="13573.913043478262" y="146.73913043478262"/>
         </scene>
         <!--Training View Controller-->
         <scene sceneID="Vif-H5-KxH">
@@ -233,7 +683,16 @@
         </scene>
     </scenes>
     <resources>
+        <image name="KC" width="345.5" height="528"/>
+        <image name="KD" width="345.5" height="528"/>
+        <image name="KH" width="341.5" height="526"/>
+        <image name="club" width="2996.5" height="1664"/>
         <image name="mainScreenImage" width="917.5" height="1370.5"/>
         <image name="mindPalLogo" width="438" height="415.5"/>
+        <image name="placesansnumber" width="500" height="375"/>
+        <image name="placewithnumbers" width="500" height="375"/>
+        <image name="screen1" width="768" height="341.5"/>
+        <image name="screen2" width="768" height="341.5"/>
+        <image name="screen3" width="768" height="341.5"/>
     </resources>
 </document>
