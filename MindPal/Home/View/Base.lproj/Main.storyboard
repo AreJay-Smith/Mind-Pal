@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="69w-ab-eWT">
-    <device id="retina5_5" orientation="portrait">
+    <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,20 +15,20 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="MindPal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainScreenImage" translatesAutoresizingMaskIntoConstraints="NO" id="vjd-Y8-VHN">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Coe-Cb-Lak" userLabel="Bottom View">
-                                <rect key="frame" x="0.0" y="400" width="414" height="336"/>
+                                <rect key="frame" x="0.0" y="547" width="768" height="477"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="43" translatesAutoresizingMaskIntoConstraints="NO" id="2wu-fw-cCF">
-                                        <rect key="frame" x="103.66666666666669" y="50" width="207" height="236"/>
+                                        <rect key="frame" x="192" y="120.5" width="384" height="236"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAZ-qo-Gqf">
-                                                <rect key="frame" x="0.0" y="0.0" width="207" height="50"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="384" height="50"/>
                                                 <color key="backgroundColor" red="0.75214145115533004" green="0.086832042733489351" blue="0.002135690025410334" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="dn5-jb-Cdd"/>
@@ -47,7 +47,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Th1-2n-7ty">
-                                                <rect key="frame" x="0.0" y="93" width="207" height="50"/>
+                                                <rect key="frame" x="0.0" y="93" width="384" height="50"/>
                                                 <color key="backgroundColor" red="0.75214145119999998" green="0.086832042730000003" blue="0.0021356900249999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="Spi-aF-eJq"/>
@@ -58,7 +58,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBi-fv-wod">
-                                                <rect key="frame" x="0.0" y="186" width="207" height="50"/>
+                                                <rect key="frame" x="0.0" y="186" width="384" height="50"/>
                                                 <color key="backgroundColor" red="0.75214145119999998" green="0.086832042730000003" blue="0.0021356900249999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="wQM-Jl-Cfs"/>
@@ -79,7 +79,7 @@
                                 </constraints>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mindPalLogo" translatesAutoresizingMaskIntoConstraints="NO" id="hNg-UU-lMa">
-                                <rect key="frame" x="0.0" y="37" width="414" height="209"/>
+                                <rect key="frame" x="0.0" y="37" width="768" height="387.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="hNg-UU-lMa" secondAttribute="height" multiplier="438:221" id="c6C-mC-ECe"/>
                                 </constraints>
@@ -127,33 +127,44 @@
         <!--View Controller-->
         <scene sceneID="JXZ-LI-70m">
             <objects>
-                <viewController storyboardIdentifier="GreenViewController" id="QmP-Id-HGe" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="screen1ViewController" id="QmP-Id-HGe" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UOA-9O-FJ1">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FZH-k2-91K">
-                                <rect key="frame" x="20" y="82.000000000000114" width="374" height="135.66666666666666"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Let's work on perfecting the Method of Loci by memorizing 12 cards from a deck of cards. With practice, you'll be able to use  this technique to eventually remember 52 cards!</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ubb-jk-p6I">
-                                <rect key="frame" x="20" y="458" width="374" height="98"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">52 cards in a row might seem like an impossible task at the start. The biggest enemy of memory is a lack of confidence--and right now you're probably thinking you can't do it.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="screen1" translatesAutoresizingMaskIntoConstraints="NO" id="HJf-Pr-iGC">
-                                <rect key="frame" x="20" y="232" width="374" height="199"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="71s-lB-3x6">
+                                <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="screen1" translatesAutoresizingMaskIntoConstraints="NO" id="HJf-Pr-iGC">
+                                        <rect key="frame" x="0.0" y="0.0" width="768" height="338"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ubb-jk-p6I">
+                                        <rect key="frame" x="8" y="346" width="752" height="658"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <string key="text">Let's work on perfecting the Method of Loci by memorizing 12 cards from a deck of cards. With practice, you'll be able to use  this technique to eventually remember 52 cards!
+
+52 cards in a row might seem like an impossible task at the start. The biggest enemy of memory is a lack of confidence--and right now you're probably thinking you can't do it.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        </variation>
+                                    </textView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ubb-jk-p6I" firstAttribute="leading" secondItem="71s-lB-3x6" secondAttribute="leading" constant="8" id="4ZE-dG-zuc"/>
+                                    <constraint firstAttribute="trailing" secondItem="ubb-jk-p6I" secondAttribute="trailing" constant="8" id="aId-P4-L4a"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="71s-lB-3x6" firstAttribute="leading" secondItem="UOA-9O-FJ1" secondAttribute="leading" id="0Sf-QX-TVB"/>
+                            <constraint firstAttribute="bottom" secondItem="71s-lB-3x6" secondAttribute="bottom" id="Ezh-Pk-TIs"/>
+                            <constraint firstItem="HJf-Pr-iGC" firstAttribute="height" secondItem="UOA-9O-FJ1" secondAttribute="height" multiplier="0.33" id="S2l-bS-uaF"/>
+                            <constraint firstItem="71s-lB-3x6" firstAttribute="top" secondItem="KWK-7B-3le" secondAttribute="top" id="Vjj-rp-6YF"/>
+                            <constraint firstAttribute="trailing" secondItem="71s-lB-3x6" secondAttribute="trailing" id="qVw-D8-EIT"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="KWK-7B-3le"/>
                     </view>
                 </viewController>
@@ -164,32 +175,40 @@
         <!--View Controller-->
         <scene sceneID="uWg-5m-6Qv">
             <objects>
-                <viewController storyboardIdentifier="RedViewController" id="sMV-vw-jra" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="screen2ViewController" id="sMV-vw-jra" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bcj-1r-la5">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="screen2" translatesAutoresizingMaskIntoConstraints="NO" id="rDZ-2j-l6M">
-                                <rect key="frame" x="20" y="261" width="374" height="225"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="First, separate the face cards from the deck: Jack, Queen, and King of all four suits: 12 cards." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4LX-8d-1Us">
-                                <rect key="frame" x="20" y="155" width="374" height="98"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="75E-Jz-bXQ">
-                                <rect key="frame" x="20" y="494" width="374" height="159.33333333333334"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">If we can "chunk" (a fun word psychologists use for grouping information into smaller parts) groups of three cards into one "thing," we've suddenly reduced 52 things you have to memorize down to 17</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="kfM-sg-rSW">
+                                <rect key="frame" x="8" y="28" width="752" height="988"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="screen2" translatesAutoresizingMaskIntoConstraints="NO" id="rDZ-2j-l6M">
+                                        <rect key="frame" x="0.0" y="0.0" width="752" height="338"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="75E-Jz-bXQ">
+                                        <rect key="frame" x="0.0" y="346" width="752" height="642"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <string key="text">First, separate the face cards from the deck: Jack, Queen, and King of all four suits: 12 cards.
+
+If we can "chunk" (a fun word psychologists use for grouping information into smaller parts) groups of three cards into one "thing," we've suddenly reduced 52 things you have to memorize down to 17</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        </variation>
+                                    </textView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="kfM-sg-rSW" firstAttribute="leading" secondItem="cCZ-Jg-JgT" secondAttribute="leading" constant="8" id="HRt-Zs-RGf"/>
+                            <constraint firstItem="rDZ-2j-l6M" firstAttribute="height" secondItem="bcj-1r-la5" secondAttribute="height" multiplier="0.33" id="MNl-r3-Ufo"/>
+                            <constraint firstItem="cCZ-Jg-JgT" firstAttribute="bottom" secondItem="kfM-sg-rSW" secondAttribute="bottom" constant="8" id="gFz-NI-RyF"/>
+                            <constraint firstAttribute="trailing" secondItem="kfM-sg-rSW" secondAttribute="trailing" constant="8" id="tCY-7e-YOl"/>
+                            <constraint firstItem="kfM-sg-rSW" firstAttribute="top" secondItem="cCZ-Jg-JgT" secondAttribute="top" constant="8" id="uh4-fB-Vpl"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="cCZ-Jg-JgT"/>
                     </view>
                 </viewController>
@@ -200,60 +219,89 @@
         <!--View Controller-->
         <scene sceneID="C8z-Qv-8aZ">
             <objects>
-                <viewController storyboardIdentifier="BlueViewController" id="oHw-Ve-E2Y" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="screen3ViewController" id="oHw-Ve-E2Y" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="t0x-Qf-gnw">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Person // Action // Object" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="yGC-3S-WJR">
-                                <rect key="frame" x="20" y="130" width="374" height="98"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FNO-7f-cCC">
-                                <rect key="frame" x="20" y="236" width="374" height="302.66666666666669"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">So what is Person // Action // Object (PAO)? It's a memorization strategy that takes advantage of something our brains are really good at: visualization. We remember pictures of things that are meaningful way better than we remember abstract things (like a card with a suit and number.)
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="q5t-wO-AoZ">
+                                <rect key="frame" x="8" y="100" width="752" height="916"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Person // Action // Object" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JcH-ZS-Hhi">
+                                        <rect key="frame" x="198.5" y="0.0" width="355" height="36"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FNO-7f-cCC">
+                                        <rect key="frame" x="8" y="56" width="736" height="860"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <string key="text">So what is Person // Action // Object (PAO)? It's a memorization strategy that takes advantage of something our brains are really good at: visualization. We remember pictures of things that are meaningful way better than we remember abstract things (like a card with a suit and number.)
 
 Let's start with the 12 face cards you set aside and associate a person with each one.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        </variation>
+                                    </textView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="FNO-7f-cCC" firstAttribute="leading" secondItem="q5t-wO-AoZ" secondAttribute="leading" constant="8" id="9WH-XQ-5yz"/>
+                                    <constraint firstAttribute="trailing" secondItem="FNO-7f-cCC" secondAttribute="trailing" constant="8" id="nCu-qM-5Z1"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="q5t-wO-AoZ" firstAttribute="top" secondItem="eh7-Ng-Q23" secondAttribute="top" constant="80" id="G1Y-Fn-ZoT"/>
+                            <constraint firstAttribute="trailing" secondItem="q5t-wO-AoZ" secondAttribute="trailing" constant="8" id="bPn-QQ-Tqc"/>
+                            <constraint firstItem="q5t-wO-AoZ" firstAttribute="leading" secondItem="eh7-Ng-Q23" secondAttribute="leading" constant="8" id="ijT-m5-LRF"/>
+                            <constraint firstItem="eh7-Ng-Q23" firstAttribute="bottom" secondItem="q5t-wO-AoZ" secondAttribute="bottom" constant="8" id="xe7-jE-IvC"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="eh7-Ng-Q23"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Cb-Ia-AgR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4207.03125" y="126.56249999999999"/>
+            <point key="canvasLocation" x="4205.7971014492759" y="126.35869565217392"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2zU-wR-Xw1">
             <objects>
-                <viewController id="man-fi-xCy" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="screen4ViewController" id="man-fi-xCy" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="k1O-90-5cH">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5RT-IY-7Dj">
-                                <rect key="frame" x="20" y="491" width="374" height="135.66666666666666"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Whatever the card reminds you of, go with it. For example, the King of Clubs could be Tiger Woods, because he is the king of clubs.
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="O6h-8T-D8T">
+                                <rect key="frame" x="8" y="197" width="752" height="819"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KC" translatesAutoresizingMaskIntoConstraints="NO" id="lHc-G5-jg9">
+                                        <rect key="frame" x="0.0" y="0.0" width="752" height="337.5"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5RT-IY-7Dj">
+                                        <rect key="frame" x="0.0" y="417.5" width="752" height="401.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <string key="text">Whatever the card reminds you of, go with it. For example, the King of Clubs could be Tiger Woods, because he is the king of clubs.
 </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="KC" translatesAutoresizingMaskIntoConstraints="NO" id="lHc-G5-jg9">
-                                <rect key="frame" x="20" y="139" width="374" height="225"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        </variation>
+                                    </textView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="B2B-wa-Ecn" firstAttribute="trailing" secondItem="O6h-8T-D8T" secondAttribute="trailing" constant="8" id="Nw0-bX-u9L"/>
+                            <constraint firstItem="O6h-8T-D8T" firstAttribute="height" secondItem="k1O-90-5cH" secondAttribute="height" multiplier="0.8" id="a6y-GA-drp"/>
+                            <constraint firstAttribute="bottom" secondItem="O6h-8T-D8T" secondAttribute="bottom" constant="8" id="aDe-7g-AjH"/>
+                            <constraint firstItem="O6h-8T-D8T" firstAttribute="leading" secondItem="B2B-wa-Ecn" secondAttribute="leading" constant="8" id="cNh-9B-U6j"/>
+                            <constraint firstItem="lHc-G5-jg9" firstAttribute="height" secondItem="k1O-90-5cH" secondAttribute="height" multiplier="0.33" id="jtp-sV-7K7"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="B2B-wa-Ecn"/>
                     </view>
                 </viewController>
@@ -266,23 +314,36 @@ Let's start with the 12 face cards you set aside and associate a person with eac
             <objects>
                 <viewController id="cVR-LA-0Jw" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hQQ-cU-WHB">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="KH" translatesAutoresizingMaskIntoConstraints="NO" id="O8j-iO-a2L">
-                                <rect key="frame" x="20" y="123" width="374" height="225"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RVk-gg-Pac">
-                                <rect key="frame" x="20" y="467" width="374" height="159.33333333333334"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">King of Hearts could be your dad, because hearts might make you think of family, and he is the king of the family. If that's not true, then try to come up with another person that resembles a king and hearts in your life.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="jSD-Zg-Tab">
+                                <rect key="frame" x="8" y="197" width="752" height="819"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KH" translatesAutoresizingMaskIntoConstraints="NO" id="O8j-iO-a2L">
+                                        <rect key="frame" x="0.0" y="0.0" width="752" height="337.5"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RVk-gg-Pac">
+                                        <rect key="frame" x="0.0" y="417.5" width="752" height="401.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <string key="text">King of Hearts could be your dad, because hearts might make you think of family, and he is the king of the family. If that's not true, then try to come up with another person that resembles a king and hearts in your life.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        </variation>
+                                    </textView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="O8j-iO-a2L" firstAttribute="height" secondItem="hQQ-cU-WHB" secondAttribute="height" multiplier="0.33" id="3FH-NH-tEk"/>
+                            <constraint firstItem="gMg-yM-asb" firstAttribute="bottom" secondItem="jSD-Zg-Tab" secondAttribute="bottom" constant="8" id="9fG-tO-b6Z"/>
+                            <constraint firstItem="jSD-Zg-Tab" firstAttribute="leading" secondItem="gMg-yM-asb" secondAttribute="leading" constant="8" id="L2w-PM-sHt"/>
+                            <constraint firstItem="gMg-yM-asb" firstAttribute="trailing" secondItem="jSD-Zg-Tab" secondAttribute="trailing" constant="8" id="PZE-zb-s2d"/>
+                            <constraint firstItem="jSD-Zg-Tab" firstAttribute="height" secondItem="hQQ-cU-WHB" secondAttribute="height" multiplier="0.8" id="kCC-Qi-1FL"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="gMg-yM-asb"/>
                     </view>
                 </viewController>
@@ -295,23 +356,36 @@ Let's start with the 12 face cards you set aside and associate a person with eac
             <objects>
                 <viewController id="C6l-hE-e1q" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="26Y-v6-uAV">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="KD" translatesAutoresizingMaskIntoConstraints="NO" id="Wov-T5-bex">
-                                <rect key="frame" x="20" y="115" width="374" height="225"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="F1U-mO-Oha">
-                                <rect key="frame" x="20" y="439" width="374" height="159.33333333333334"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">King of Diamonds could be Donald Trump, because he probably has a ton of diamonds and he thinks he's a king. The more wild and whacky the image, the better it'll stay in your mind.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="0aQ-ZI-4CK">
+                                <rect key="frame" x="8" y="197" width="752" height="819"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KD" translatesAutoresizingMaskIntoConstraints="NO" id="Wov-T5-bex">
+                                        <rect key="frame" x="0.0" y="0.0" width="752" height="337.5"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="F1U-mO-Oha">
+                                        <rect key="frame" x="0.0" y="417.5" width="752" height="401.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <string key="text">King of Diamonds could be Donald Trump, because he probably has a ton of diamonds and he thinks he's a king. The more wild and whacky the image, the better it'll stay in your mind.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        </variation>
+                                    </textView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0aQ-ZI-4CK" firstAttribute="height" secondItem="26Y-v6-uAV" secondAttribute="height" multiplier="0.8" id="0i9-1f-afe"/>
+                            <constraint firstItem="THt-hv-viK" firstAttribute="bottom" secondItem="0aQ-ZI-4CK" secondAttribute="bottom" constant="8" id="VmM-q8-iPI"/>
+                            <constraint firstItem="THt-hv-viK" firstAttribute="trailing" secondItem="0aQ-ZI-4CK" secondAttribute="trailing" constant="8" id="l7k-7N-Tt1"/>
+                            <constraint firstItem="0aQ-ZI-4CK" firstAttribute="leading" secondItem="THt-hv-viK" secondAttribute="leading" constant="8" id="luT-ge-kGg"/>
+                            <constraint firstItem="Wov-T5-bex" firstAttribute="height" secondItem="26Y-v6-uAV" secondAttribute="height" multiplier="0.33" id="yna-c8-ncQ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="THt-hv-viK"/>
                     </view>
                 </viewController>
@@ -324,23 +398,36 @@ Let's start with the 12 face cards you set aside and associate a person with eac
             <objects>
                 <viewController id="Ptc-xS-T6t" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e57-gE-Gp3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3ye-XK-N0w">
-                                <rect key="frame" x="20" y="75" width="374" height="207"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Once you have people picked out, decide on an action and an object for each. Make it something that makes sense to that person, something that is so obvious you don't really need to memorize it. For example, King of Clubs is Tiger Woods, his action is playing golf, and his object is a golf club.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="club" translatesAutoresizingMaskIntoConstraints="NO" id="oTY-ZS-RVu">
-                                <rect key="frame" x="20" y="375" width="374" height="225"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="UM2-sl-cse">
+                                <rect key="frame" x="16" y="36" width="736" height="972"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ye-XK-N0w">
+                                        <rect key="frame" x="0.0" y="0.0" width="736" height="338"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <string key="text">Once you have people picked out, decide on an action and an object for each. Make it something that makes sense to that person, something that is so obvious you don't really need to memorize it. For example, King of Clubs is Tiger Woods, his action is playing golf, and his object is a golf club.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        </variation>
+                                    </textView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="club" translatesAutoresizingMaskIntoConstraints="NO" id="oTY-ZS-RVu">
+                                        <rect key="frame" x="0.0" y="418" width="736" height="554"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3ye-XK-N0w" firstAttribute="height" secondItem="e57-gE-Gp3" secondAttribute="height" multiplier="0.33" id="91S-2a-MAa"/>
+                            <constraint firstItem="UM2-sl-cse" firstAttribute="leading" secondItem="AHO-nf-m2f" secondAttribute="leading" constant="16" id="JFt-Q3-zt2"/>
+                            <constraint firstItem="UM2-sl-cse" firstAttribute="top" secondItem="AHO-nf-m2f" secondAttribute="top" constant="16" id="ayn-iC-NeY"/>
+                            <constraint firstAttribute="trailing" secondItem="UM2-sl-cse" secondAttribute="trailing" constant="16" id="cJn-GA-Dyf"/>
+                            <constraint firstAttribute="bottom" secondItem="UM2-sl-cse" secondAttribute="bottom" constant="16" id="hwF-SM-PdE"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="AHO-nf-m2f"/>
                     </view>
                 </viewController>
@@ -353,25 +440,44 @@ Let's start with the 12 face cards you set aside and associate a person with eac
             <objects>
                 <viewController id="9fJ-lz-J4D" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pyC-bw-bAg">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="screen3" translatesAutoresizingMaskIntoConstraints="NO" id="Ba8-lM-D92">
-                                <rect key="frame" x="0.0" y="103" width="394" height="248"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2In-xh-120">
-                                <rect key="frame" x="20" y="395" width="374" height="302.66666666666669"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Once you have that, the idea of PAO is that when you encounter three cards in a row, the first card is always taken as the Person, the second as the Action, and the third as the Object.
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="HbR-84-Dg5">
+                                <rect key="frame" x="16" y="36" width="736" height="972"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="screen3" translatesAutoresizingMaskIntoConstraints="NO" id="Ba8-lM-D92">
+                                        <rect key="frame" x="0.0" y="0.0" width="736" height="338"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2In-xh-120">
+                                        <rect key="frame" x="0.0" y="338" width="736" height="634"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <string key="text">Once you have that, the idea of PAO is that when you encounter three cards in a row, the first card is always taken as the Person, the second as the Action, and the third as the Object.
 
 You can end up with some super weird combos that way and at the same time group three cards into one memorable image. The formula is always the same: it's a person, doing an action, with an object.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        </variation>
+                                    </textView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="2In-xh-120" firstAttribute="leading" secondItem="HbR-84-Dg5" secondAttribute="leading" id="EVM-k3-QOi"/>
+                                    <constraint firstItem="2In-xh-120" firstAttribute="top" secondItem="Ba8-lM-D92" secondAttribute="bottom" id="IB8-qv-kh8"/>
+                                    <constraint firstAttribute="trailing" secondItem="2In-xh-120" secondAttribute="trailing" id="ZaK-Jg-hBA"/>
+                                    <constraint firstAttribute="bottom" secondItem="2In-xh-120" secondAttribute="bottom" id="tGk-pF-Gdg"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="HbR-84-Dg5" secondAttribute="trailing" constant="16" id="2Jm-1m-yQH"/>
+                            <constraint firstAttribute="bottom" secondItem="HbR-84-Dg5" secondAttribute="bottom" constant="16" id="4km-sH-aE6"/>
+                            <constraint firstItem="HbR-84-Dg5" firstAttribute="top" secondItem="XZO-d0-tqX" secondAttribute="top" constant="16" id="CHb-Qe-Jrg"/>
+                            <constraint firstItem="Ba8-lM-D92" firstAttribute="height" secondItem="pyC-bw-bAg" secondAttribute="height" multiplier="0.33" id="gwo-JJ-QJL"/>
+                            <constraint firstItem="HbR-84-Dg5" firstAttribute="leading" secondItem="pyC-bw-bAg" secondAttribute="leading" constant="16" id="pCc-Ic-RXe"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="XZO-d0-tqX"/>
                     </view>
                 </viewController>
@@ -384,27 +490,45 @@ You can end up with some super weird combos that way and at the same time group 
             <objects>
                 <viewController id="XXO-jH-TZG" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HJx-jX-eJj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="YYd-CP-c5S">
-                                <rect key="frame" x="20" y="381" width="374" height="278.66666666666669"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">OK, so the cards mean something. Now what?
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Bzc-5S-QgV">
+                                <rect key="frame" x="16" y="36" width="736" height="972"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placesansnumber" translatesAutoresizingMaskIntoConstraints="NO" id="Ctm-tF-Wh7">
+                                        <rect key="frame" x="0.0" y="0.0" width="736" height="375"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YYd-CP-c5S">
+                                        <rect key="frame" x="0.0" y="377" width="736" height="595"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <string key="text">OK, so the cards mean something. Now what?
 
 We need a place to store them as you memorize them. What better place to use than the places you walk through every day: your home, your office, or even the local Starbucks.
 
 If you can't think of a place, don't worry. We'll just use the one above.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placesansnumber" translatesAutoresizingMaskIntoConstraints="NO" id="Ctm-tF-Wh7">
-                                <rect key="frame" x="0.0" y="89" width="414" height="248"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        </variation>
+                                    </textView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Ctm-tF-Wh7" firstAttribute="leading" secondItem="Bzc-5S-QgV" secondAttribute="leading" id="Xq6-7D-8ce"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ctm-tF-Wh7" secondAttribute="trailing" id="ftt-6a-Rn1"/>
+                                    <constraint firstAttribute="trailing" secondItem="YYd-CP-c5S" secondAttribute="trailing" id="hiS-Fw-r8i"/>
+                                    <constraint firstItem="YYd-CP-c5S" firstAttribute="leading" secondItem="Bzc-5S-QgV" secondAttribute="leading" id="iIX-OE-mpj"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Bzc-5S-QgV" secondAttribute="bottom" constant="16" id="Qnx-Ti-g6c"/>
+                            <constraint firstItem="Bzc-5S-QgV" firstAttribute="leading" secondItem="HJx-jX-eJj" secondAttribute="leading" constant="16" id="b0U-Lm-Z61"/>
+                            <constraint firstItem="Bzc-5S-QgV" firstAttribute="top" secondItem="sRs-LV-Vf7" secondAttribute="top" constant="16" id="dUf-7d-bhB"/>
+                            <constraint firstAttribute="trailing" secondItem="Bzc-5S-QgV" secondAttribute="trailing" constant="16" id="sdx-iJ-AIf"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="sRs-LV-Vf7"/>
                     </view>
                 </viewController>
@@ -417,25 +541,43 @@ If you can't think of a place, don't worry. We'll just use the one above.</strin
             <objects>
                 <viewController id="ac5-Dx-BDi" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UH1-5Z-Y5X">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placesansnumber" translatesAutoresizingMaskIntoConstraints="NO" id="y7p-Ae-Kpr">
-                                <rect key="frame" x="0.0" y="81" width="414" height="248"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="10T-vY-FO2">
-                                <rect key="frame" x="20" y="379" width="374" height="337"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Our brains are very good at remembering spacial information, so if you can imagine yourself walking through a place you know well, you can deposit the images of cards you are memorizing along the way. Then, when it comes time to recall them, you just imagine yourself walking back through that place and picking up the images as you go, translating them back into cards. Voilà!
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="Rcp-tx-Kd4">
+                                <rect key="frame" x="16" y="36" width="736" height="972"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placesansnumber" translatesAutoresizingMaskIntoConstraints="NO" id="y7p-Ae-Kpr">
+                                        <rect key="frame" x="0.0" y="0.0" width="736" height="375"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="10T-vY-FO2">
+                                        <rect key="frame" x="0.0" y="389" width="736" height="583"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <string key="text">Our brains are very good at remembering spacial information, so if you can imagine yourself walking through a place you know well, you can deposit the images of cards you are memorizing along the way. Then, when it comes time to recall them, you just imagine yourself walking back through that place and picking up the images as you go, translating them back into cards. Voilà!
 
 Let's create a pathway through this place that can be used as a mind palace.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        </variation>
+                                    </textView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="10T-vY-FO2" firstAttribute="leading" secondItem="Rcp-tx-Kd4" secondAttribute="leading" id="Mcm-wJ-c4E"/>
+                                    <constraint firstAttribute="trailing" secondItem="y7p-Ae-Kpr" secondAttribute="trailing" id="aCH-mh-gCp"/>
+                                    <constraint firstItem="y7p-Ae-Kpr" firstAttribute="leading" secondItem="Rcp-tx-Kd4" secondAttribute="leading" id="mJE-Iu-hIx"/>
+                                    <constraint firstAttribute="trailing" secondItem="10T-vY-FO2" secondAttribute="trailing" id="r7C-sb-ZkL"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Rcp-tx-Kd4" firstAttribute="top" secondItem="25K-FC-jRg" secondAttribute="top" constant="16" id="MV8-dl-Vh9"/>
+                            <constraint firstItem="25K-FC-jRg" firstAttribute="trailing" secondItem="Rcp-tx-Kd4" secondAttribute="trailing" constant="16" id="Yhs-an-kJj"/>
+                            <constraint firstItem="Rcp-tx-Kd4" firstAttribute="leading" secondItem="UH1-5Z-Y5X" secondAttribute="leading" constant="16" id="er5-Kg-eti"/>
+                            <constraint firstItem="25K-FC-jRg" firstAttribute="bottom" secondItem="Rcp-tx-Kd4" secondAttribute="bottom" constant="16" id="uUQ-my-soa"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="25K-FC-jRg"/>
                     </view>
                 </viewController>
@@ -448,18 +590,19 @@ Let's create a pathway through this place that can be used as a mind palace.</st
             <objects>
                 <viewController id="2T8-Op-7vn" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HXv-4U-qTz">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placewithnumbers" translatesAutoresizingMaskIntoConstraints="NO" id="dLM-5r-zmc">
-                                <rect key="frame" x="0.0" y="59" width="414" height="248"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dFS-eO-NQk">
-                                <rect key="frame" x="20" y="315" width="374" height="407"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">1. The top of the stairs
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="1Vo-Qx-K7B">
+                                <rect key="frame" x="16" y="36" width="736" height="972"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placewithnumbers" translatesAutoresizingMaskIntoConstraints="NO" id="dLM-5r-zmc">
+                                        <rect key="frame" x="0.0" y="0.0" width="736" height="375"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dFS-eO-NQk">
+                                        <rect key="frame" x="0.0" y="383" width="736" height="589"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <string key="text">1. The top of the stairs
 2. The ledge next to the stairs
 3. The stairs next to the ledge
 4. The slanted part of the wall
@@ -474,11 +617,28 @@ Let's create a pathway through this place that can be used as a mind palace.</st
 13. Among the red flowers
 14. Hiding in the bushes
 15. On the step</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        </variation>
+                                    </textView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="dLM-5r-zmc" secondAttribute="trailing" id="1HW-pU-d0O"/>
+                                    <constraint firstItem="dFS-eO-NQk" firstAttribute="leading" secondItem="1Vo-Qx-K7B" secondAttribute="leading" id="KM7-lZ-Udz"/>
+                                    <constraint firstAttribute="trailing" secondItem="dFS-eO-NQk" secondAttribute="trailing" id="ykq-bZ-Kml"/>
+                                    <constraint firstItem="dLM-5r-zmc" firstAttribute="leading" secondItem="1Vo-Qx-K7B" secondAttribute="leading" id="zFh-vM-rTu"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="CWC-7c-7YS" firstAttribute="trailing" secondItem="1Vo-Qx-K7B" secondAttribute="trailing" constant="16" id="0yy-Ty-Vqv"/>
+                            <constraint firstItem="CWC-7c-7YS" firstAttribute="bottom" secondItem="1Vo-Qx-K7B" secondAttribute="bottom" constant="16" id="KaD-MB-6NH"/>
+                            <constraint firstItem="1Vo-Qx-K7B" firstAttribute="leading" secondItem="HXv-4U-qTz" secondAttribute="leading" constant="16" id="Zzw-de-bTu"/>
+                            <constraint firstItem="1Vo-Qx-K7B" firstAttribute="top" secondItem="CWC-7c-7YS" secondAttribute="top" constant="16" id="fNz-0F-cM4"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="CWC-7c-7YS"/>
                     </view>
                 </viewController>
@@ -491,70 +651,60 @@ Let's create a pathway through this place that can be used as a mind palace.</st
             <objects>
                 <viewController id="uh2-2z-jwI" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bM7-4a-3LA">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placewithnumbers" translatesAutoresizingMaskIntoConstraints="NO" id="3dS-rd-tlI">
-                                <rect key="frame" x="0.0" y="57" width="414" height="248"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="s9z-tS-0vu">
-                                <rect key="frame" x="20" y="313" width="374" height="384"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Say the first three cards are King of Clubs, King of Hearts, and Queen of Clubs. Let's make that set equal: Tiger Woods (Person) signing (Action) a Chihuahua (Object). If I use this image as a memory palace and start at the top of the stairs, there on the first step is Tiger Woods holding a big pen as he signs the back of a yipping Chihuahua. Then you move on to the next three cards and placethem on the ledge next to the stairs, then the next three cards farther down the stairs etc.
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="OCf-0W-RXe">
+                                <rect key="frame" x="16" y="36" width="736" height="972"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placewithnumbers" translatesAutoresizingMaskIntoConstraints="NO" id="3dS-rd-tlI">
+                                        <rect key="frame" x="0.0" y="0.0" width="736" height="375"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="s9z-tS-0vu">
+                                        <rect key="frame" x="0.0" y="383" width="736" height="589"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <mutableString key="text">Say the first three cards are King of Clubs, King of Hearts, and Queen of Clubs. Let's make that set equal: Tiger Woods (Person) signing (Action) a Chihuahua (Object). If I use this image as a memory palace and start at the top of the stairs, there on the first step is Tiger Woods holding a big pen as he signs the back of a yipping Chihuahua. Then you move on to the next three cards and placethem on the ledge next to the stairs, then the next three cards farther down the stairs etc.
 
 Use the rest of the number to memorize the rest of the face cards.</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        </variation>
+                                    </textView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="3dS-rd-tlI" secondAttribute="trailing" id="ETc-aU-CaQ"/>
+                                    <constraint firstItem="s9z-tS-0vu" firstAttribute="leading" secondItem="OCf-0W-RXe" secondAttribute="leading" id="S4C-Qr-yxM"/>
+                                    <constraint firstAttribute="trailing" secondItem="s9z-tS-0vu" secondAttribute="trailing" id="lMs-mE-Tjj"/>
+                                    <constraint firstItem="3dS-rd-tlI" firstAttribute="leading" secondItem="OCf-0W-RXe" secondAttribute="leading" id="yEe-xk-ePl"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Jgy-Fy-FZv" firstAttribute="bottom" secondItem="OCf-0W-RXe" secondAttribute="bottom" constant="16" id="6gx-jL-TU5"/>
+                            <constraint firstItem="OCf-0W-RXe" firstAttribute="top" secondItem="Jgy-Fy-FZv" secondAttribute="top" constant="16" id="AYg-yI-vYV"/>
+                            <constraint firstItem="Jgy-Fy-FZv" firstAttribute="trailing" secondItem="OCf-0W-RXe" secondAttribute="trailing" constant="16" id="IWg-ln-n1U"/>
+                            <constraint firstItem="OCf-0W-RXe" firstAttribute="leading" secondItem="bM7-4a-3LA" secondAttribute="leading" constant="16" id="ubY-yF-OmV"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Jgy-Fy-FZv"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JjB-ij-6gx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="11198.550724637682" y="131.25"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="OYV-qY-Q41">
-            <objects>
-                <viewController id="1eO-Tl-ayD" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="gvi-Oc-EKH">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aLc-pA-fgy">
-                                <rect key="frame" x="31" y="100" width="363" height="599"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">For the rest of the cards, there are lots of choices in terms of formal systems, but I like one called the Dominic System. The Dominic System is basically a code for numbers and suits that translates them into letters, which in turn represent the initials of a person or character.
-
-Let's work through an example.</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="0CF-2X-2T7"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tiY-K7-vdn" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="11989.85507246377" y="128.80434782608697"/>
+            <point key="canvasLocation" x="11163" y="139"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="nPw-So-CQO">
             <objects>
                 <viewController id="u9v-pD-2Ex" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="08p-aW-kDP">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nEV-oD-5tT">
-                                <rect key="frame" x="20" y="69" width="374" height="647"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nEV-oD-5tT">
+                                <rect key="frame" x="16" y="36" width="736" height="972"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <mutableString key="text">Here's the system:
 1 = A
@@ -579,9 +729,18 @@ A.S. = Arnold Schwarzenegger // Weightlifting // Barbell
 E.C. = Eric Clapton // Playing guitar // Guitar</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                </variation>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nEV-oD-5tT" firstAttribute="top" secondItem="Rh9-t2-a7g" secondAttribute="top" constant="16" id="GJt-cw-EED"/>
+                            <constraint firstItem="Rh9-t2-a7g" firstAttribute="trailing" secondItem="nEV-oD-5tT" secondAttribute="trailing" constant="16" id="Lyk-vx-5xg"/>
+                            <constraint firstItem="nEV-oD-5tT" firstAttribute="leading" secondItem="Rh9-t2-a7g" secondAttribute="leading" constant="16" id="dk9-on-hZr"/>
+                            <constraint firstItem="Rh9-t2-a7g" firstAttribute="bottom" secondItem="nEV-oD-5tT" secondAttribute="bottom" constant="16" id="eMg-aX-Prw"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Rh9-t2-a7g"/>
                     </view>
                 </viewController>
@@ -594,12 +753,11 @@ E.C. = Eric Clapton // Playing guitar // Guitar</mutableString>
             <objects>
                 <viewController id="f85-8r-plj" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IlR-5P-Gs2">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mRa-bY-ZVA">
-                                <rect key="frame" x="20" y="101" width="374" height="599"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mRa-bY-ZVA">
+                                <rect key="frame" x="16" y="36" width="736" height="972"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <mutableString key="text">Put it all together and you'll probably be able to memorize a full deck of cards on your first try -- but not in under a minute. To get that fast, you just need to practice. Memorize a deck a day and you'll be cutting your times in half in no time.
 
@@ -609,9 +767,18 @@ Think of it like becoming fluent in a foreign language -- you have to practice s
 And once you get it down fast enough, try applying these techniques to other parts of your life like studying for an upcoming test, or remembering a shopping list without writing anything down. Your memory capacity will begin to expand as you do.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                </variation>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="mRa-bY-ZVA" firstAttribute="top" secondItem="woH-LM-5NP" secondAttribute="top" constant="16" id="22Q-Le-zmS"/>
+                            <constraint firstItem="woH-LM-5NP" firstAttribute="trailing" secondItem="mRa-bY-ZVA" secondAttribute="trailing" constant="16" id="4Ix-KV-sM1"/>
+                            <constraint firstItem="woH-LM-5NP" firstAttribute="bottom" secondItem="mRa-bY-ZVA" secondAttribute="bottom" constant="16" id="n6X-eA-3gI"/>
+                            <constraint firstItem="mRa-bY-ZVA" firstAttribute="leading" secondItem="woH-LM-5NP" secondAttribute="leading" constant="16" id="uHV-uU-7lY"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="woH-LM-5NP"/>
                     </view>
                 </viewController>
@@ -624,14 +791,14 @@ And once you get it down fast enough, try applying these techniques to other par
             <objects>
                 <viewController id="7Sf-Am-Iht" customClass="TrainingViewController" customModule="MindPal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fv4-Se-OCZ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EIn-6h-VIt">
-                                <rect key="frame" x="0.0" y="19.999999999999986" width="414" height="225.66666666666663"/>
+                                <rect key="frame" x="0.0" y="20" width="768" height="322"/>
                             </imageView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KzO-RE-ohH">
-                                <rect key="frame" x="0.0" y="245.66666666666666" width="414" height="490.33333333333337"/>
+                                <rect key="frame" x="0.0" y="342" width="768" height="682"/>
                                 <connections>
                                     <segue destination="YKr-yH-Kfp" kind="embed" id="D6o-uo-kmM"/>
                                 </connections>
@@ -669,7 +836,7 @@ And once you get it down fast enough, try applying these techniques to other par
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="69w-ab-eWT" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UMJ-EU-pYS">
-                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="768" height="50"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -680,6 +847,55 @@ And once you get it down fast enough, try applying these techniques to other par
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pSg-Ee-2XI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="131.25" y="138.28125"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="veW-co-tWm">
+            <objects>
+                <viewController id="6OS-gH-20P" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6mD-LO-OaN">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="lMe-LA-iCd">
+                                <rect key="frame" x="16" y="36" width="736" height="972"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placewithnumbers" translatesAutoresizingMaskIntoConstraints="NO" id="7bC-yb-olK">
+                                        <rect key="frame" x="0.0" y="0.0" width="736" height="375"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OTJ-Q4-hmD">
+                                        <rect key="frame" x="0.0" y="383" width="736" height="589"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <string key="text">For the rest of the cards, there are lots of choices in terms of formal systems, but I like one called the Dominic System. The Dominic System is basically a code for numbers and suits that translates them into letters, which in turn represent the initials of a person or character.
+
+Let's work through an example.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        </variation>
+                                    </textView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="OTJ-Q4-hmD" firstAttribute="leading" secondItem="lMe-LA-iCd" secondAttribute="leading" id="8Hr-61-VaZ"/>
+                                    <constraint firstItem="7bC-yb-olK" firstAttribute="leading" secondItem="lMe-LA-iCd" secondAttribute="leading" id="WY7-md-bwA"/>
+                                    <constraint firstAttribute="trailing" secondItem="OTJ-Q4-hmD" secondAttribute="trailing" id="eTW-fj-UQT"/>
+                                    <constraint firstAttribute="trailing" secondItem="7bC-yb-olK" secondAttribute="trailing" id="pkW-XG-fhz"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="lMe-LA-iCd" firstAttribute="top" secondItem="awO-4m-Qhi" secondAttribute="top" constant="16" id="5JF-Rd-ZRt"/>
+                            <constraint firstItem="awO-4m-Qhi" firstAttribute="bottom" secondItem="lMe-LA-iCd" secondAttribute="bottom" constant="16" id="5qd-lw-wOl"/>
+                            <constraint firstItem="awO-4m-Qhi" firstAttribute="trailing" secondItem="lMe-LA-iCd" secondAttribute="trailing" constant="16" id="Rsg-ET-WdY"/>
+                            <constraint firstItem="lMe-LA-iCd" firstAttribute="leading" secondItem="6mD-LO-OaN" secondAttribute="leading" constant="16" id="rhM-O1-6EB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="awO-4m-Qhi"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B5V-ya-E66" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="11949" y="139"/>
         </scene>
     </scenes>
     <resources>

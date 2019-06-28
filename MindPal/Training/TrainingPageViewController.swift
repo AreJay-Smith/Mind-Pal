@@ -27,9 +27,10 @@ class TrainingPageViewController: UIPageViewController, UIPageViewControllerData
     }
     
     private(set) lazy var orderedViewControllers: [UIViewController] = {
-        return [self.newColoredViewController("Green"),
-                self.newColoredViewController("Red"),
-                self.newColoredViewController("Blue")]
+        return [self.newColoredViewController("screen1"),
+                self.newColoredViewController("screen2"),
+                self.newColoredViewController("screen3"),
+                self.newColoredViewController("screen4")]
     }()
     
     private func newColoredViewController(_ color: String) -> UIViewController {
