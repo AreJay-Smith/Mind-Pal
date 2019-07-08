@@ -312,7 +312,7 @@ Let's start with the 12 face cards you set aside and associate a person with eac
         <!--View Controller-->
         <scene sceneID="PCI-Kn-6sd">
             <objects>
-                <viewController id="cVR-LA-0Jw" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="screen5ViewController" id="cVR-LA-0Jw" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hQQ-cU-WHB">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -354,7 +354,7 @@ Let's start with the 12 face cards you set aside and associate a person with eac
         <!--View Controller-->
         <scene sceneID="9H4-C8-tQF">
             <objects>
-                <viewController id="C6l-hE-e1q" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="screen6ViewController" id="C6l-hE-e1q" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="26Y-v6-uAV">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -396,7 +396,7 @@ Let's start with the 12 face cards you set aside and associate a person with eac
         <!--View Controller-->
         <scene sceneID="iLJ-hP-AZb">
             <objects>
-                <viewController id="Ptc-xS-T6t" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="screen7ViewController" id="Ptc-xS-T6t" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e57-gE-Gp3">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -438,7 +438,7 @@ Let's start with the 12 face cards you set aside and associate a person with eac
         <!--View Controller-->
         <scene sceneID="Drg-s4-Z82">
             <objects>
-                <viewController id="9fJ-lz-J4D" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="screen8ViewController" id="9fJ-lz-J4D" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pyC-bw-bAg">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -488,7 +488,7 @@ You can end up with some super weird combos that way and at the same time group 
         <!--View Controller-->
         <scene sceneID="agY-0D-5iG">
             <objects>
-                <viewController id="XXO-jH-TZG" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="screen9ViewController" id="XXO-jH-TZG" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HJx-jX-eJj">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -539,7 +539,7 @@ If you can't think of a place, don't worry. We'll just use the one above.</strin
         <!--View Controller-->
         <scene sceneID="Dt0-WZ-VZL">
             <objects>
-                <viewController id="ac5-Dx-BDi" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="screen10ViewController" id="ac5-Dx-BDi" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UH1-5Z-Y5X">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -588,7 +588,7 @@ Let's create a pathway through this place that can be used as a mind palace.</st
         <!--View Controller-->
         <scene sceneID="Pbn-Wn-aLR">
             <objects>
-                <viewController id="2T8-Op-7vn" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="screen11ViewController" id="2T8-Op-7vn" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HXv-4U-qTz">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -649,7 +649,7 @@ Let's create a pathway through this place that can be used as a mind palace.</st
         <!--View Controller-->
         <scene sceneID="7y9-74-AOk">
             <objects>
-                <viewController id="uh2-2z-jwI" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="screen12ViewController" id="uh2-2z-jwI" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bM7-4a-3LA">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -663,9 +663,9 @@ Let's create a pathway through this place that can be used as a mind palace.</st
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="s9z-tS-0vu">
                                         <rect key="frame" x="0.0" y="383" width="736" height="589"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <mutableString key="text">Say the first three cards are King of Clubs, King of Hearts, and Queen of Clubs. Let's make that set equal: Tiger Woods (Person) signing (Action) a Chihuahua (Object). If I use this image as a memory palace and start at the top of the stairs, there on the first step is Tiger Woods holding a big pen as he signs the back of a yipping Chihuahua. Then you move on to the next three cards and placethem on the ledge next to the stairs, then the next three cards farther down the stairs etc.
+                                        <string key="text">Say the first three cards are King of Clubs, King of Hearts, and Queen of Clubs. Let's make that set equal: Tiger Woods (Person) signing (Action) a Chihuahua (Object). If I use this image as a memory palace and start at the top of the stairs, there on the first step is Tiger Woods holding a big pen as he signs the back of a yipping Chihuahua. Then you move on to the next three cards and placethem on the ledge next to the stairs, then the next three cards farther down the stairs etc.
 
-Use the rest of the number to memorize the rest of the face cards.</mutableString>
+Use the rest of the number to memorize the rest of the face cards.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                         <variation key="heightClass=regular-widthClass=regular">
@@ -698,7 +698,7 @@ Use the rest of the number to memorize the rest of the face cards.</mutableStrin
         <!--View Controller-->
         <scene sceneID="nPw-So-CQO">
             <objects>
-                <viewController id="u9v-pD-2Ex" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="screen14ViewController" id="u9v-pD-2Ex" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="08p-aW-kDP">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -706,7 +706,7 @@ Use the rest of the number to memorize the rest of the face cards.</mutableStrin
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nEV-oD-5tT">
                                 <rect key="frame" x="16" y="36" width="736" height="972"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Here's the system:
+                                <string key="text">Here's the system:
 1 = A
 2 = B
 3 = C
@@ -726,7 +726,7 @@ Ace = A, Spades = S.
 A.S. = Arnold Schwarzenegger // Weightlifting // Barbell
 5 of Clubs is an E and a C.
 5 = E, Clubs = C.
-E.C. = Eric Clapton // Playing guitar // Guitar</mutableString>
+E.C. = Eric Clapton // Playing guitar // Guitar</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <variation key="heightClass=regular-widthClass=regular">
@@ -751,7 +751,7 @@ E.C. = Eric Clapton // Playing guitar // Guitar</mutableString>
         <!--View Controller-->
         <scene sceneID="XBH-my-id4">
             <objects>
-                <viewController id="f85-8r-plj" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="screen15ViewController" id="f85-8r-plj" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IlR-5P-Gs2">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -759,12 +759,12 @@ E.C. = Eric Clapton // Playing guitar // Guitar</mutableString>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mRa-bY-ZVA">
                                 <rect key="frame" x="16" y="36" width="736" height="972"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Put it all together and you'll probably be able to memorize a full deck of cards on your first try -- but not in under a minute. To get that fast, you just need to practice. Memorize a deck a day and you'll be cutting your times in half in no time.
+                                <string key="text">Put it all together and you'll probably be able to memorize a full deck of cards on your first try -- but not in under a minute. To get that fast, you just need to practice. Memorize a deck a day and you'll be cutting your times in half in no time.
 
 And keep in mind that the more you practice imagining the images for cards, the faster you'll be able to encode them.
 Think of it like becoming fluent in a foreign language -- you have to practice speaking the language before it becomes automatic.
 
-And once you get it down fast enough, try applying these techniques to other parts of your life like studying for an upcoming test, or remembering a shopping list without writing anything down. Your memory capacity will begin to expand as you do.</mutableString>
+And once you get it down fast enough, try applying these techniques to other parts of your life like studying for an upcoming test, or remembering a shopping list without writing anything down. Your memory capacity will begin to expand as you do.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <variation key="heightClass=regular-widthClass=regular">
@@ -851,7 +851,7 @@ And once you get it down fast enough, try applying these techniques to other par
         <!--View Controller-->
         <scene sceneID="veW-co-tWm">
             <objects>
-                <viewController id="6OS-gH-20P" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="screen13ViewController" id="6OS-gH-20P" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6mD-LO-OaN">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

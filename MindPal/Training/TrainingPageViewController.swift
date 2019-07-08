@@ -30,7 +30,18 @@ class TrainingPageViewController: UIPageViewController, UIPageViewControllerData
         return [self.newColoredViewController("screen1"),
                 self.newColoredViewController("screen2"),
                 self.newColoredViewController("screen3"),
-                self.newColoredViewController("screen4")]
+                self.newColoredViewController("screen4"),
+                self.newColoredViewController("screen5"),
+                self.newColoredViewController("screen6"),
+                self.newColoredViewController("screen7"),
+                self.newColoredViewController("screen8"),
+                self.newColoredViewController("screen9"),
+                self.newColoredViewController("screen10"),
+                self.newColoredViewController("screen11"),
+                self.newColoredViewController("screen12"),
+                self.newColoredViewController("screen13"),
+                self.newColoredViewController("screen14"),
+                self.newColoredViewController("screen15")]
     }()
     
     private func newColoredViewController(_ color: String) -> UIViewController {
