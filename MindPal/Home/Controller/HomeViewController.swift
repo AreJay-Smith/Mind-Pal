@@ -14,7 +14,6 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var practiceBtn: UIButton!
     @IBOutlet weak var testBtn: UIButton!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         lessonsBtn.layer.cornerRadius = 15
@@ -24,6 +23,8 @@ class HomeViewController: UIViewController {
         self.navigationController?.setNavigationBarHidden(true, animated: false)
     }
     
-    
+    @IBAction func practicePressed(_ sender: Any) {
+        performSegue(withIdentifier: "goToPracticeSettingsScreen", sender: self)
+    }
 }
 

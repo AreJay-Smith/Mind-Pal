@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2C7A485122C2B784001AE46B /* TrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7A485022C2B784001AE46B /* TrainingViewController.swift */; };
+		496F946B22D41F2A00152D00 /* PracticeSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496F946A22D41F2A00152D00 /* PracticeSettingsViewController.swift */; };
+		496F946D22D4445800152D00 /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496F946C22D4445800152D00 /* PracticeViewController.swift */; };
 		49B234D522BB110B00AF873E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B234D422BB110B00AF873E /* AppDelegate.swift */; };
 		49B234D722BB110B00AF873E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B234D622BB110B00AF873E /* HomeViewController.swift */; };
 		49B234DA22BB110B00AF873E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B234D822BB110B00AF873E /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		2C7A485022C2B784001AE46B /* TrainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingViewController.swift; sourceTree = "<group>"; };
+		496F946A22D41F2A00152D00 /* PracticeSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeSettingsViewController.swift; sourceTree = "<group>"; };
+		496F946C22D4445800152D00 /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
 		49B234D122BB110A00AF873E /* MindPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B234D422BB110B00AF873E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49B234D622BB110B00AF873E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +91,15 @@
 			path = Training;
 			sourceTree = "<group>";
 		};
+		496F946922D41F0B00152D00 /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				496F946A22D41F2A00152D00 /* PracticeSettingsViewController.swift */,
+				496F946C22D4445800152D00 /* PracticeViewController.swift */,
+			);
+			path = Practice;
+			sourceTree = "<group>";
+		};
 		49B234C822BB110A00AF873E = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +123,7 @@
 		49B234D322BB110A00AF873E /* MindPal */ = {
 			isa = PBXGroup;
 			children = (
+				496F946922D41F0B00152D00 /* Practice */,
 				2C7A484F22C2B72C001AE46B /* Training */,
 				49B2350522BB18ED00AF873E /* Supporting Files */,
 				49B2350222BB14C100AF873E /* Home */,
@@ -303,7 +317,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C7A485122C2B784001AE46B /* TrainingViewController.swift in Sources */,
+				496F946B22D41F2A00152D00 /* PracticeSettingsViewController.swift in Sources */,
 				49B234D722BB110B00AF873E /* HomeViewController.swift in Sources */,
+				496F946D22D4445800152D00 /* PracticeViewController.swift in Sources */,
 				49B2350722C316BE00AF873E /* TrainingPageViewController.swift in Sources */,
 				49B234D522BB110B00AF873E /* AppDelegate.swift in Sources */,
 			);
