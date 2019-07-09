@@ -57,7 +57,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="practicePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f3I-p1-cMj"/>
+                                                    <segue destination="Oco-xz-sbL" kind="show" id="Qfl-xq-cnD"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBi-fv-wod">
@@ -113,7 +113,6 @@
                         <outlet property="lessonsBtn" destination="wAZ-qo-Gqf" id="Dod-4u-zDA"/>
                         <outlet property="practiceBtn" destination="Th1-2n-7ty" id="cdl-5T-1ca"/>
                         <outlet property="testBtn" destination="eBi-fv-wod" id="XiK-bd-aea"/>
-                        <segue destination="Oco-xz-sbL" kind="show" identifier="goToPracticeSettingsScreen" id="Dry-sh-u3D"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -128,55 +127,74 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How many cards would you like to memorize?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RF6-km-MaJ">
-                                <rect key="frame" x="20" y="93" width="347" height="20.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UFb-a8-jjb">
-                                <rect key="frame" x="181" y="226" width="25" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How many minutes would you like to practice for?  " textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gdv-hV-kgz">
-                                <rect key="frame" x="0.0" y="369" width="387" height="20.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qWw-LY-1ke">
-                                <rect key="frame" x="181" y="503" width="25" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VK0-8Z-F4N">
-                                <rect key="frame" x="115" y="582" width="157" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="55" translatesAutoresizingMaskIntoConstraints="NO" id="kDK-YO-TSl">
+                                <rect key="frame" x="16" y="80" width="343" height="329"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How many cards would you like to memorize?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RF6-km-MaJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="41"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UFb-a8-jjb">
+                                        <rect key="frame" x="0.0" y="96" width="343" height="41"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How many minutes would you like to practice for?  " textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gdv-hV-kgz">
+                                        <rect key="frame" x="0.0" y="192" width="343" height="41"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qWw-LY-1ke">
+                                        <rect key="frame" x="0.0" y="288" width="343" height="41"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="qWw-LY-1ke" firstAttribute="leading" secondItem="kDK-YO-TSl" secondAttribute="leading" id="0n8-VP-x0U"/>
+                                    <constraint firstItem="RF6-km-MaJ" firstAttribute="leading" secondItem="kDK-YO-TSl" secondAttribute="leading" id="2j4-kx-UMk"/>
+                                    <constraint firstAttribute="trailing" secondItem="UFb-a8-jjb" secondAttribute="trailing" id="COJ-63-5fc"/>
+                                    <constraint firstAttribute="trailing" secondItem="RF6-km-MaJ" secondAttribute="trailing" id="LWC-V2-5U2"/>
+                                    <constraint firstItem="UFb-a8-jjb" firstAttribute="leading" secondItem="kDK-YO-TSl" secondAttribute="leading" id="PZX-tZ-XBV"/>
+                                    <constraint firstItem="Gdv-hV-kgz" firstAttribute="leading" secondItem="kDK-YO-TSl" secondAttribute="leading" id="QAU-AY-TuO"/>
+                                    <constraint firstAttribute="trailing" secondItem="qWw-LY-1ke" secondAttribute="trailing" id="TEh-tT-SlO"/>
+                                    <constraint firstAttribute="trailing" secondItem="Gdv-hV-kgz" secondAttribute="trailing" id="qhu-Iq-VXT"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VK0-8Z-F4N">
+                                <rect key="frame" x="47" y="584.5" width="281" height="66.5"/>
                                 <state key="normal" title="Begin Practice Session"/>
                                 <connections>
-                                    <action selector="beginPracticePressed:" destination="Oco-xz-sbL" eventType="touchUpInside" id="UnW-4p-G1b"/>
                                     <segue destination="SaG-0v-0Uk" kind="show" identifier="goToPracticeScreen" id="EJF-eN-qFe"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="VK0-8Z-F4N" firstAttribute="centerX" secondItem="sbe-jR-wmC" secondAttribute="centerX" id="9YU-dU-Ued"/>
+                            <constraint firstItem="VK0-8Z-F4N" firstAttribute="width" secondItem="sbe-jR-wmC" secondAttribute="width" multiplier="0.75" id="CWG-p0-bAa"/>
+                            <constraint firstItem="kDK-YO-TSl" firstAttribute="leading" secondItem="sbe-jR-wmC" secondAttribute="leading" constant="16" id="h8j-QD-qOa"/>
+                            <constraint firstItem="kDK-YO-TSl" firstAttribute="top" secondItem="jQ4-xO-EBA" secondAttribute="top" constant="16" id="hk9-bN-zY6"/>
+                            <constraint firstItem="jQ4-xO-EBA" firstAttribute="trailing" secondItem="kDK-YO-TSl" secondAttribute="trailing" constant="16" id="jUI-uv-Vvs"/>
+                            <constraint firstItem="jQ4-xO-EBA" firstAttribute="bottom" secondItem="VK0-8Z-F4N" secondAttribute="bottom" constant="16" id="nbl-w7-aEQ"/>
+                            <constraint firstItem="VK0-8Z-F4N" firstAttribute="height" secondItem="sbe-jR-wmC" secondAttribute="height" multiplier="0.1" id="yhg-oO-Emh"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="jQ4-xO-EBA"/>
                     </view>
                     <connections>
+                        <outlet property="minutesNumView" destination="Gdv-hV-kgz" id="uuk-Wy-9jG"/>
                         <outlet property="numCardsView" destination="UFb-a8-jjb" id="3CH-jT-6ZW"/>
                         <outlet property="numMinutesView" destination="qWw-LY-1ke" id="RVu-ga-HVP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ty1-s6-NST" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1841" y="906"/>
+            <point key="canvasLocation" x="1840.8" y="905.3973013493254"/>
         </scene>
         <!--Practice View Controller-->
         <scene sceneID="Lf7-EQ-WcO">

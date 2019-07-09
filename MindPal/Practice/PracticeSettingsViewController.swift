@@ -15,12 +15,19 @@ class PracticeSettingsViewController: UIViewController {
     var numCards = 0
     var numMinutes = 0
     
+    @IBOutlet weak var minutesNumView: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         numCardsView.delegate = self
         numMinutesView.delegate = self
+        
+//        minutesNumView.sizeToFit()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(false, animated: false)
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -28,36 +35,32 @@ class PracticeSettingsViewController: UIViewController {
         numMinutesView.resignFirstResponder()
     }
     
-    @IBAction func beginPracticePressed(_ sender: Any) {
-        
-        numCards = Int(numCardsView.text!)!
-        numMinutes = Int(numMinutesView.text!)!
-        
-        if numCards > 0 && numMinutes > 0  {
-            performSegue(withIdentifier: "goToPracticeScreen", sender: self)
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        if identifier == "goToPracticeScreen" {
+            numCards = Int(numCardsView.text ?? "0") ?? 0
+            numMinutes = Int(numMinutesView.text ?? "0") ?? 0
+            
+            if numCards > 0 && numMinutes > 0  {
+                return true
+            } else {
+                let controller = UIAlertController(title: "Invalid Entry", message: "Please enter valid numbers!", preferredStyle: .alert)
+                controller.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                self.present(controller, animated: true, completion: nil)
+                return false
+            }
         }
+        return false
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToPracticeScreen" {
             
-            let practiceViewController = segue.destination as! PracticeViewController
-            
-            practiceViewController.numCards = self.numCards
-            practiceViewController.numMinutes = self.numMinutes
+            if let practiceViewController = segue.destination as? PracticeViewController {
+                practiceViewController.numCards = self.numCards
+                practiceViewController.numMinutes = self.numMinutes
+            }
         }
     }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
 
 extension UIViewController : UITextFieldDelegate {
