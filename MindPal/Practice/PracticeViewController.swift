@@ -24,6 +24,7 @@ class PracticeViewController: UIViewController {
     @IBOutlet weak var timerLabel: UILabel!
     @IBOutlet weak var cardCountLabel: UILabel!
     @IBOutlet weak var progressBar: UIView!
+    @IBOutlet weak var progressBarWidthConstraint: NSLayoutConstraint!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,7 +39,6 @@ class PracticeViewController: UIViewController {
         leftArrow.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(self.leftTap)))
         rightArrow.isUserInteractionEnabled = true
         rightArrow.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(self.rightTap)))
-        
 //        runTimer()
     }
     
@@ -53,16 +53,18 @@ class PracticeViewController: UIViewController {
     }
     
     private func updateCurrentCard() {
+        let cardCount = CGFloat(gameSession!.selectedCards.count)
+        progressBarWidthConstraint.constant = (view.frame.size.width / cardCount) * CGFloat(gameSession!.currentCardIndex + 1)
+//        progressBar.frame.size.width = (view.frame.size.width / 5) * CGFloat(gameSession!.currentCardIndex + 1)
         currentRenderedCard.image = UIImage(named: gameSession!.getCurrentCardName())
         cardCountLabel.text = "\(gameSession!.currentCardIndex + 1) / \(gameSession!.selectedCards.count)"
-        progressBar.frame.size.width = (view.frame.size.width / 13) * CGFloat(gameSession!.currentCardIndex+1)
     }
     
-//    private func runTimer() {
-//        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: (#selector(ViewController.updateTimer)), userInfo: nil, repeats: true)
-//    }
+    private func runTimer() {
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: (#selector(updateTimer)), userInfo: nil, repeats: true)
+    }
     
-    func updateTimer() {
+    @objc func updateTimer() {
         seconds -= 1     //This will decrement(count down)the seconds.
         timerLabel.text = "\(seconds)" //This will update the label.
     }

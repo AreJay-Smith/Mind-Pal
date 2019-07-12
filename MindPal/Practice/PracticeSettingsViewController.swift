@@ -23,6 +23,7 @@ class PracticeSettingsViewController: UIViewController {
         numCardsView.delegate = self
         numMinutesView.delegate = self
         
+        
 //        minutesNumView.sizeToFit()
     }
     

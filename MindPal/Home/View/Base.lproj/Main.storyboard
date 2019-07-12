@@ -266,14 +266,14 @@
                                 </constraints>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PWn-Rd-ldc">
-                                <rect key="frame" x="0.0" y="655" width="24" height="12"/>
+                                <rect key="frame" x="0.0" y="652.5" width="24" height="14.5"/>
                                 <color key="backgroundColor" red="0.94140958786010742" green="0.79974716901779175" blue="0.040579810738563538" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="24" id="dA1-Ok-Z1A"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1/16" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XoI-Ff-jzT">
-                                <rect key="frame" x="16" y="630" width="26.5" height="17"/>
+                                <rect key="frame" x="16" y="626" width="26.5" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -285,12 +285,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="IEk-Wt-5Iz" firstAttribute="height" secondItem="lBQ-vN-3oH" secondAttribute="height" multiplier="0.17" id="7Oa-sa-tQM"/>
-                            <constraint firstItem="PWn-Rd-ldc" firstAttribute="height" secondItem="sZS-CP-Vbn" secondAttribute="height" multiplier="0.02" id="837-r2-tjA"/>
                             <constraint firstItem="Z5m-nc-tgw" firstAttribute="trailing" secondItem="sZS-CP-Vbn" secondAttribute="trailing" id="Hm6-Ez-qDc"/>
-                            <constraint firstItem="PWn-Rd-ldc" firstAttribute="top" secondItem="XoI-Ff-jzT" secondAttribute="bottom" constant="8" id="Lwt-3U-2Gt"/>
                             <constraint firstItem="REb-ym-tGc" firstAttribute="top" secondItem="Z5m-nc-tgw" secondAttribute="top" id="Prg-Td-pMb"/>
                             <constraint firstItem="PWn-Rd-ldc" firstAttribute="bottom" secondItem="Z5m-nc-tgw" secondAttribute="bottom" id="T5M-RX-RVf"/>
                             <constraint firstAttribute="trailing" secondItem="REb-ym-tGc" secondAttribute="trailing" id="VNI-23-tmA"/>
+                            <constraint firstItem="PWn-Rd-ldc" firstAttribute="height" secondItem="lBQ-vN-3oH" secondAttribute="height" multiplier="0.022" id="bjd-ev-KnG"/>
+                            <constraint firstItem="XoI-Ff-jzT" firstAttribute="bottom" secondItem="sZS-CP-Vbn" secondAttribute="bottom" constant="-24" id="hNh-9F-RKc"/>
                             <constraint firstItem="PWn-Rd-ldc" firstAttribute="leading" secondItem="Z5m-nc-tgw" secondAttribute="leading" id="mFi-T9-7hi"/>
                             <constraint firstItem="REb-ym-tGc" firstAttribute="leading" secondItem="lBQ-vN-3oH" secondAttribute="leading" id="n6z-Xg-U5k"/>
                             <constraint firstItem="sZS-CP-Vbn" firstAttribute="leading" secondItem="Z5m-nc-tgw" secondAttribute="leading" id="pU1-ej-yRW"/>
@@ -305,6 +305,7 @@
                         <outlet property="currentRenderedCard" destination="avV-pe-3Nn" id="qvH-ml-hsE"/>
                         <outlet property="leftArrow" destination="KKt-1z-T6i" id="k65-DU-mlB"/>
                         <outlet property="progressBar" destination="PWn-Rd-ldc" id="fhP-XL-xG2"/>
+                        <outlet property="progressBarWidthConstraint" destination="dA1-Ok-Z1A" id="Jed-JA-qMY"/>
                         <outlet property="rightArrow" destination="FOR-h1-2K5" id="G5b-AW-eWo"/>
                         <outlet property="timerLabel" destination="IEk-Wt-5Iz" id="iAC-CY-PL7"/>
                     </connections>

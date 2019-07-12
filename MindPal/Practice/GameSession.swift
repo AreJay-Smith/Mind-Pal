@@ -21,7 +21,7 @@ class GameSession {
     func generateSelectedList(with numCards: Int) {
         if (numCards != 0) {
         for _ in 1...numCards {
-            let randomCardNumber = Int.random(in: 0...allCards.count)
+            let randomCardNumber = Int.random(in: 0..<allCards.count)
             selectedCards.append(allCards[randomCardNumber])
             allCards.remove(at: randomCardNumber)
         }
