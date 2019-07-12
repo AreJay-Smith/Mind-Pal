@@ -10,6 +10,7 @@
 		2C7A485122C2B784001AE46B /* TrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7A485022C2B784001AE46B /* TrainingViewController.swift */; };
 		496F946B22D41F2A00152D00 /* PracticeSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496F946A22D41F2A00152D00 /* PracticeSettingsViewController.swift */; };
 		496F946D22D4445800152D00 /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496F946C22D4445800152D00 /* PracticeViewController.swift */; };
+		496F946F22D5701500152D00 /* GameSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496F946E22D5701500152D00 /* GameSession.swift */; };
 		49B234D522BB110B00AF873E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B234D422BB110B00AF873E /* AppDelegate.swift */; };
 		49B234D722BB110B00AF873E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B234D622BB110B00AF873E /* HomeViewController.swift */; };
 		49B234DA22BB110B00AF873E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B234D822BB110B00AF873E /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 		2C7A485022C2B784001AE46B /* TrainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingViewController.swift; sourceTree = "<group>"; };
 		496F946A22D41F2A00152D00 /* PracticeSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeSettingsViewController.swift; sourceTree = "<group>"; };
 		496F946C22D4445800152D00 /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
+		496F946E22D5701500152D00 /* GameSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSession.swift; sourceTree = "<group>"; };
 		49B234D122BB110A00AF873E /* MindPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B234D422BB110B00AF873E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49B234D622BB110B00AF873E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			children = (
 				496F946A22D41F2A00152D00 /* PracticeSettingsViewController.swift */,
 				496F946C22D4445800152D00 /* PracticeViewController.swift */,
+				496F946E22D5701500152D00 /* GameSession.swift */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				496F946B22D41F2A00152D00 /* PracticeSettingsViewController.swift in Sources */,
 				49B234D722BB110B00AF873E /* HomeViewController.swift in Sources */,
 				496F946D22D4445800152D00 /* PracticeViewController.swift in Sources */,
+				496F946F22D5701500152D00 /* GameSession.swift in Sources */,
 				49B2350722C316BE00AF873E /* TrainingPageViewController.swift in Sources */,
 				49B234D522BB110B00AF873E /* AppDelegate.swift in Sources */,
 			);
