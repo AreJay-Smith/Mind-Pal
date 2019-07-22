@@ -16,6 +16,10 @@
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>To capture the name of the card.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>To hear your response.</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 </dict>

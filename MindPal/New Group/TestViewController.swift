@@ -1,65 +1,64 @@
 //
-//  PracticeViewController.swift
+//  TestViewController.swift
 //  MindPal
 //
-//  Created by Randall Smith on 7/8/19.
+//  Created by Randall Smith on 7/16/19.
 //  Copyright © 2019 Randall Smith. All rights reserved.
 //
 
 import UIKit
 
-class PracticeViewController: UIViewController {
-    
-    var numCards = 0
-    var numMinutes = 0
-    var gameSession: GameSession?
+class TestViewController: UIViewController {
+
+    @IBOutlet weak var timerLabel: UILabel!
+    @IBOutlet weak var leftArrow: UIImageView!
+    @IBOutlet weak var rightArrow: UIImageView!
+    @IBOutlet weak var cardCountLabel: UILabel!
+    @IBOutlet weak var progressBarWidthConstraint: NSLayoutConstraint!
+    @IBOutlet weak var currentRenderedCard: UIImageView!
     
     var seconds = 60
     var timer = Timer()
-
-    @IBOutlet weak var leftArrow: UIImageView!
-    @IBOutlet weak var rightArrow: UIImageView!
-    @IBOutlet weak var currentRenderedCard: UIImageView!
-    @IBOutlet weak var timerLabel: UILabel!
-    @IBOutlet weak var cardCountLabel: UILabel!
-    @IBOutlet weak var progressBar: UIView!
-    @IBOutlet weak var progressBarWidthConstraint: NSLayoutConstraint!
+    var currentGame = GameSession(52)
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-        self.navigationController?.viewControllers.remove(at: 1)
-        
-        gameSession = GameSession(numCards)
-        updateCurrentCard()
         
         leftArrow.isUserInteractionEnabled = true
         leftArrow.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(self.leftTap)))
         rightArrow.isUserInteractionEnabled = true
         rightArrow.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(self.rightTap)))
         
-        seconds = seconds * numMinutes
+        seconds = seconds * 10
         updateTimer()
         runTimer()
+        updateCurrentCard()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToFinalTestScreen" {
+            if let finalTestViewController = segue.destination as? FinalTestViewController {
+                finalTestViewController.gameSession = self.currentGame
+            }
+        }
     }
     
     // Func in your UIViewController
     @objc func leftTap() {
-        gameSession!.backCardInDeck()
+        currentGame.backCardInDeck()
         updateCurrentCard()
     }
     @objc func rightTap() {
-        gameSession!.nextCardInDeck()
+        currentGame.nextCardInDeck()
         updateCurrentCard()
     }
     
     private func updateCurrentCard() {
-        let cardCount = CGFloat(gameSession!.selectedCards.count-1)
-        progressBarWidthConstraint.constant = (view.frame.size.width / cardCount) * CGFloat(gameSession!.currentCardIndex)
-
-        currentRenderedCard.image = UIImage(named: gameSession!.getCurrentCardName())
-        cardCountLabel.text = "\(gameSession!.currentCardIndex) / \(gameSession!.selectedCards.count-1)"
+        let cardCount = CGFloat(currentGame.selectedCards.count-1)
+        progressBarWidthConstraint.constant = (view.frame.size.width / cardCount) * CGFloat(currentGame.currentCardIndex)
+        
+        currentRenderedCard.image = UIImage(named: currentGame.getCurrentCardName())
+        cardCountLabel.text = "\(currentGame.currentCardIndex) / \(currentGame.selectedCards.count-1)"
     }
     
     private func runTimer() {
