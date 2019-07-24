@@ -13,6 +13,7 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var lessonsBtn: UIButton!
     @IBOutlet weak var practiceBtn: UIButton!
     @IBOutlet weak var testBtn: UIButton!
+    @IBOutlet weak var bestScoreTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +25,13 @@ class HomeViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
        super.viewWillAppear(animated)
         self.navigationController?.setNavigationBarHidden(true, animated: false)
+        setHighScore()
+    }
+    
+    func setHighScore() {
+        if let score =  UserDefaults.standard.value(forKey: "score") as? Int {
+            bestScoreTextField.text = "Best Score: \(score)"
+        }
     }
 }
 

@@ -24,6 +24,8 @@ class TestViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.navigationController?.setNavigationBarHidden(false, animated: false)
+        
         leftArrow.isUserInteractionEnabled = true
         leftArrow.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(self.leftTap)))
         rightArrow.isUserInteractionEnabled = true

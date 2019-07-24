@@ -77,11 +77,11 @@ class GameSession {
     func generateSelectedList(with numCards: Int) {
         if (numCards != 0) {
             selectedCards.append("yellow_back")
-        for _ in 1...numCards {
-            let randomCardNumber = Int.random(in: 0..<allCards.count)
-            selectedCards.append(allCards[randomCardNumber])
-            allCards.remove(at: randomCardNumber)
-        }
+            for _ in 1...numCards {
+                let randomCardNumber = Int.random(in: 0..<allCards.count)
+                selectedCards.append(allCards[randomCardNumber])
+                allCards.remove(at: randomCardNumber)
+            }
         }
     }
     
@@ -101,8 +101,12 @@ class GameSession {
         return selectedCards[currentCardIndex]
     }
     
+    func getNextCardName() -> String {
+        return selectedCards[currentCardIndex+1]
+    }
+    
     func checkVoicRecording(is recording: String) -> Bool {
-        if let possibleVoicResponse = voiceIndex[getCurrentCardName()] {
+        if let possibleVoicResponse = voiceIndex[getNextCardName()] {
             return possibleVoicResponse.contains(recording.lowercased())
         }
         return false
