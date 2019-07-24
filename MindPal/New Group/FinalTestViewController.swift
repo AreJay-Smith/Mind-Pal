@@ -26,7 +26,8 @@ class FinalTestViewController: UIViewController {
         super.viewDidLoad()
 
         self.navigationController?.viewControllers.remove(at: 1)
-        
+        gameSession.nextCardInDeck()
+        renderCard()
         audioEngine = AVAudioEngine()
         speechRecognizer = SFSpeechRecognizer()
         request = SFSpeechAudioBufferRecognitionRequest()
@@ -68,9 +69,10 @@ class FinalTestViewController: UIViewController {
             }
             self.recognitionText.text = result.bestTranscription.formattedString
             if result.isFinal {
-                self.recognitionText.text = "You say: \(result.bestTranscription.formattedString)"
+                self.recognitionText.text = "Did you say: \(result.bestTranscription.formattedString)?"
                 self.stopRecording()
                 node.removeTap(onBus: 0)
+                self.checkIfCorrect(result.bestTranscription.formattedString)
             }
         })
     }
@@ -84,4 +86,17 @@ class FinalTestViewController: UIViewController {
         audioEngine.stop()
         recognitionTask?.cancel()
     }
+    
+    private func renderCard() {
+        rightCard.image = UIImage(named: gameSession!.getCurrentCardName())
+    }
+    
+    private func checkIfCorrect(_ recording: String) {
+        if gameSession.checkVoicRecording(is: recording) {
+            gameSession.nextCardInDeck()
+            renderCard()
+        }
+    }
+    
+    
 }

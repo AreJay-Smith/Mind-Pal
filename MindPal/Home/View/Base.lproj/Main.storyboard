@@ -300,15 +300,6 @@
                                 <rect key="frame" x="205" y="230" width="147" height="226"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UEL-CP-vHv">
-                                <rect key="frame" x="160" y="577" width="54" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="onDownPress:" destination="BVm-qS-cWi" eventType="touchDown" id="1zV-wL-Ote"/>
-                                    <action selector="onUpPress:" destination="BVm-qS-cWi" eventType="touchUpInside" id="mVu-5b-2a9"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Metion card" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gCo-Bd-hP8">
                                 <rect key="frame" x="16" y="506" width="343" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -320,6 +311,25 @@
                                 <rect key="frame" x="26" y="230" width="147" height="226"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qKE-rS-Bku">
+                                <rect key="frame" x="84" y="609" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Yes"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="675-Kj-lC2">
+                                <rect key="frame" x="263" y="609" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="No"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UEL-CP-vHv">
+                                <rect key="frame" x="150" y="552" width="74" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="RecordButton" image="redButton"/>
+                                <connections>
+                                    <action selector="onDownPress:" destination="BVm-qS-cWi" eventType="touchDown" id="1zV-wL-Ote"/>
+                                    <action selector="onUpPress:" destination="BVm-qS-cWi" eventType="touchUpInside" id="mVu-5b-2a9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -1253,6 +1263,7 @@ Let's work through an example.</string>
         <image name="newbackground" width="444.5" height="414"/>
         <image name="placesansnumber" width="500" height="375"/>
         <image name="placewithnumbers" width="500" height="375"/>
+        <image name="redButton" width="1713" height="1634"/>
         <image name="screen1" width="768" height="341.5"/>
         <image name="screen2" width="768" height="341.5"/>
         <image name="screen3" width="768" height="341.5"/>

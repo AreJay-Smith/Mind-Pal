@@ -64,7 +64,7 @@ class GameSession {
         "JH": ["jack of hearts"],
         "QH": ["queen of hearts"],
         "KH": ["king of hearts"],
-        "AD": ["ace of hearts"],
+        "AH": ["ace of hearts"],
     ]
     
     var selectedCards: Array<String> = []
@@ -101,8 +101,8 @@ class GameSession {
         return selectedCards[currentCardIndex]
     }
     
-    func checkVoicRecording(card key: String, is recording: String) -> Bool {
-        if let possibleVoicResponse = voiceIndex[key] {
+    func checkVoicRecording(is recording: String) -> Bool {
+        if let possibleVoicResponse = voiceIndex[getCurrentCardName()] {
             return possibleVoicResponse.contains(recording.lowercased())
         }
         return false
