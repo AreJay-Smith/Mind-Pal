@@ -246,13 +246,13 @@
                                         <rect key="frame" x="48" y="184" width="672" height="491.5"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellow_back" translatesAutoresizingMaskIntoConstraints="NO" id="XFf-NX-hut">
-                                                <rect key="frame" x="0.0" y="0.0" width="312.00000000000006" height="491.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="312" height="491.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="XFf-NX-hut" secondAttribute="height" multiplier="33:52" id="0kF-Oz-853"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AC" translatesAutoresizingMaskIntoConstraints="NO" id="iDg-E5-MgK">
-                                                <rect key="frame" x="359.99999999999994" y="0.0" width="312.00000000000017" height="491.5"/>
+                                                <rect key="frame" x="360" y="0.0" width="312" height="491.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="iDg-E5-MgK" secondAttribute="height" multiplier="33:52" id="v05-xj-35G"/>
                                                 </constraints>
@@ -351,13 +351,13 @@
                                         <rect key="frame" x="115.5" y="0.0" width="537" height="381.5"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellow_back" translatesAutoresizingMaskIntoConstraints="NO" id="NFD-Jv-Coh">
-                                                <rect key="frame" x="0.0" y="0.0" width="249.00000000000006" height="381.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="249" height="381.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="NFD-Jv-Coh" secondAttribute="height" multiplier="115:176" id="KoG-Xd-fcc"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellow_back" translatesAutoresizingMaskIntoConstraints="NO" id="XNK-y4-75T">
-                                                <rect key="frame" x="288" y="0.0" width="249.00000000000006" height="381.5"/>
+                                                <rect key="frame" x="288" y="0.0" width="249" height="381.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="XNK-y4-75T" secondAttribute="height" multiplier="15:23" id="lVa-Z5-53L"/>
                                                 </constraints>
@@ -502,13 +502,13 @@
                                         <rect key="frame" x="39.5" y="208" width="689" height="490"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellow_back" translatesAutoresizingMaskIntoConstraints="NO" id="P8c-uU-uFA">
-                                                <rect key="frame" x="0.0" y="0.0" width="333.00000000000006" height="490"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="333" height="490"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="P8c-uU-uFA" secondAttribute="height" multiplier="17:25" id="elk-5e-XGd"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AC" translatesAutoresizingMaskIntoConstraints="NO" id="avV-pe-3Nn">
-                                                <rect key="frame" x="355.99999999999994" y="0.0" width="333.00000000000017" height="490"/>
+                                                <rect key="frame" x="356" y="0.0" width="333" height="490"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="avV-pe-3Nn" secondAttribute="height" multiplier="17:25" id="v23-mC-d9f"/>
                                                 </constraints>
